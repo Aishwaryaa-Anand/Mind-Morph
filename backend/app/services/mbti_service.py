@@ -7,12 +7,12 @@ class MBTIService:
     def __init__(self):
         # Load MBTI data
         data_path = os.path.join(os.path.dirname(__file__), '../../data/mbti_data.json')
-        with open(data_path, 'r') as f:
+        with open(data_path, 'r', encoding='utf-8') as f:
             self.mbti_data = json.load(f)
         
         # Load compatibility data
         compat_path = os.path.join(os.path.dirname(__file__), '../../data/mbti_compatibility.json')
-        with open(compat_path, 'r') as f:
+        with open(compat_path, 'r', encoding='utf-8') as f:
             self.compatibility_data = json.load(f)
     
     def get_insights(self, mbti_type):

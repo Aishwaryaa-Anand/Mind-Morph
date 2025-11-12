@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { twitterService } from "../../services/twitterService";
 import Navbar from "../../components/shared/Navbar";
 import { generateQuestionnairePDF } from "../../utils/pdfGenerator";
-import Footer from '../../components/shared/Footer';
+import Footer from "../../components/shared/Footer";
 
 export default function TwitterResult() {
   const { id } = useParams();
@@ -56,7 +56,7 @@ export default function TwitterResult() {
 
   const { prediction, insights } = result;
   const mbti = prediction.mbtiType;
-  const confidence = prediction.confidence;
+  // const confidence = prediction.confidence;
   //   const keywords = prediction.keywords || [];
   const profileInfo = prediction.profileInfo || {};
 
@@ -86,7 +86,6 @@ export default function TwitterResult() {
             Based on @{prediction.username}'s tweets
           </p>
         </div>
-
         {/* Profile Info Card */}
         {profileInfo.displayName && (
           <div className="glass-card mb-8">
@@ -139,7 +138,6 @@ export default function TwitterResult() {
             </div>
           </div>
         )}
-
         {/* MBTI Type Card */}
         <div className="glass-card mb-8 text-center">
           <h2 className="text-white/80 text-lg mb-4">Personality Type</h2>
@@ -168,9 +166,8 @@ export default function TwitterResult() {
             {insights.description}
           </p>
         </div>
-
         {/* Confidence Scores */}
-        <div className="glass-card mb-8">
+        {/* <div className="glass-card mb-8">
           <h3 className="text-2xl font-bold text-white mb-6">
             Confidence Breakdown
           </h3>
@@ -234,7 +231,6 @@ export default function TwitterResult() {
             </div>
           </div>
         )} */}
-
         {/* Strengths & Weaknesses */}
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="glass-card">
@@ -261,7 +257,6 @@ export default function TwitterResult() {
             </ul>
           </div>
         </div>
-
         {/* Career Suggestions */}
         <div className="glass-card mb-8">
           <h3 className="text-2xl font-bold text-white mb-4">
@@ -278,7 +273,6 @@ export default function TwitterResult() {
             ))}
           </div>
         </div>
-
         {/* Compatibility */}
         {insights.compatibility && (
           <div className="glass-card mb-8">
@@ -292,26 +286,31 @@ export default function TwitterResult() {
                 return (
                   <div
                     key={match}
-                    className="p-4 rounded-lg bg-white/10 border border-white/20"
+                    className="p-4 rounded-lg bg-white/10 border border-white/20 hover:bg-white/15 transition-all duration-300"
                   >
                     <div className="flex items-center justify-between mb-2">
                       <h4 className="text-xl font-bold text-white">{match}</h4>
-                      <span className="px-3 py-1 rounded-full bg-green-500/20 text-green-400 font-semibold">
-                        {compat.score}% Match
-                      </span>
+                      {/* <span className="text-2xl" title="Compatibility Rating">
+                        {compat.rating}
+                      </span> */}
                     </div>
-                    <p className="text-white/90 mb-2">{compat.why}</p>
-                    <p className="text-white/70 text-sm">
-                      <span className="font-semibold">Challenge:</span>{" "}
-                      {compat.challenges}
+                    <p className="text-white/90 mb-3 leading-relaxed">
+                      {compat.why}
                     </p>
+                    <div className="pt-3 border-t border-white/10">
+                      <p className="text-white/70 text-sm leading-relaxed">
+                        <span className="font-semibold text-yellow-400">
+                          ⚠️ Challenge:
+                        </span>{" "}
+                        {compat.challenges}
+                      </p>
+                    </div>
                   </div>
                 );
               })}
             </div>
           </div>
         )}
-
         {/* Growth Tips */}
         <div className="glass-card mb-8">
           <h3 className="text-2xl font-bold text-white mb-4">
@@ -328,7 +327,6 @@ export default function TwitterResult() {
             ))}
           </ul>
         </div>
-
         {/* Famous People */}
         <div className="glass-card mb-8">
           <h3 className="text-2xl font-bold text-white mb-4">Famous {mbti}s</h3>
@@ -343,7 +341,6 @@ export default function TwitterResult() {
             ))}
           </div>
         </div>
-
         {/* Analysis Info */}
         <div className="glass-card mb-8">
           <div className="flex items-start gap-3">
@@ -367,7 +364,6 @@ export default function TwitterResult() {
             </div>
           </div>
         </div>
-
         {/* Stored Tweets Section - NEW */}
         {prediction.tweets && prediction.tweets.length > 0 && (
           <div className="glass-card mb-8">
@@ -402,7 +398,6 @@ export default function TwitterResult() {
             </div>
           </div>
         )}
-
         {/* Actions */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button

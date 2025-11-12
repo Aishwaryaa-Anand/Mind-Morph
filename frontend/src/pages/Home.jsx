@@ -16,7 +16,7 @@ export default function Home() {
       icon: "📋",
       path: "/questionnaire/test",
       color: "from-purple-500 to-pink-500",
-      accuracy: "75%",
+      // accuracy: "75%",
       status: "active",
     },
     {
@@ -25,7 +25,7 @@ export default function Home() {
       icon: "📝",
       path: "/text/analyze",
       color: "from-indigo-500 to-purple-500",
-      accuracy: "80%",
+      // accuracy: "80%",
       status: "active",
     },
     {
@@ -34,8 +34,8 @@ export default function Home() {
       icon: "🐦",
       path: "/twitter/analyze",
       color: "from-blue-500 to-cyan-500",
-      accuracy: "80%",
-      status: "active", // Changed from 'coming-soon'
+      // accuracy: "80%",
+      status: "active", // Changed 'coming-soon' to 'active'
     },
   ];
 
@@ -63,7 +63,7 @@ export default function Home() {
               key={index}
               onClick={() => navigate(module.path)}
               disabled={module.status === 'coming-soon'}
-              className="group glass-card hover:scale-105 transition-all duration-300 text-left disabled:opacity-50 disabled:cursor-not-allowed"
+              className="group glass-card hover:scale-105 transition-all duration-300 text-left disabled:opacity-100 disabled:cursor-not-allowed"
             >
               {/* Icon */}
               <div className={`w-16 h-16 rounded-xl bg-gradient-to-br ${module.color} flex items-center justify-center text-3xl mb-4 group-hover:scale-110 transition-transform`}>

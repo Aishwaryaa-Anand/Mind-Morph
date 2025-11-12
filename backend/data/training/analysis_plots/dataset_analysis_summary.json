@@ -1,5 +1,7 @@
 {
   "dataset_info": {
+    "Entries before filtering": 8675,
+    "Entries after filtering": 2574,
     "total_people": 2574,
     "train_size": 1801,
     "val_size": 386,

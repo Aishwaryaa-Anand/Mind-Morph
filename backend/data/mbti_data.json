@@ -1,466 +1,642 @@
 {
   "INTJ": {
     "title": "The Architect",
-    "description": "Strategic, analytical, and independent thinkers who see possibilities for improvement everywhere. INTJs value competence and efficiency, and work to achieve their vision with determination.",
+    "description": "INTJs are visionary strategists who thrive on building structured, efficient systems to bring their long-term ideas to life. In the Indian context, they are often the quiet visionaries working behind large projects or enterprises. Logical yet imaginative, they balance tradition and innovation, preferring efficiency and precision over popularity. They often appear reserved, but their drive for mastery and impact runs deep.",
     "percentage": "2-4% of population",
-    "strengths": ["Strategic thinking", "Independent", "Determined", "High standards", "Original"],
-    "weaknesses": ["Overly analytical", "Dismissive of emotions", "Can seem arrogant", "Impatient with inefficiency"],
+    "strengths": [
+      "Exceptional strategic foresight and long-term planning",
+      "Independent and self-sufficient problem-solvers",
+      "Strong analytical and logical reasoning",
+      "Unshakeable focus on competence and excellence",
+      "Ability to visualize complex systems and outcomes"
+    ],
+    "weaknesses": [
+      "Can appear detached or overly critical",
+      "May struggle to express emotions openly",
+      "Sometimes impatient with inefficiency or incompetence",
+      "Perfectionism may delay action or collaboration"
+    ],
     "careers": [
       "Software Architect",
       "Data Scientist",
-      "Investment Banker",
+      "Investment Strategist",
       "Management Consultant",
       "Research Scientist",
-      "Systems Engineer"
+      "Technology Innovator"
     ],
     "study_habits": [
-      "Prefer independent study with minimal supervision",
-      "Excel at creating structured learning plans",
-      "Focus on understanding underlying principles rather than memorization",
-      "Work best in quiet, distraction-free environments"
+      "Prefer solitary, structured learning with deep conceptual focus",
+      "Thrive in analytical subjects like science, math, and engineering",
+      "Dislike superficial memorization and prefer understanding the 'why'",
+      "Organize their study goals strategically, often ahead of schedule"
     ],
-    "hobbies": ["Chess", "Strategic games", "Reading non-fiction", "Programming", "Building systems"],
-    "famous_people": ["Elon Musk", "Mark Zuckerberg", "Isaac Newton", "Michelle Obama"],
+    "hobbies": ["Chess", "Building systems", "Analyzing trends", "Coding projects", "Reading philosophy or biographies"],
+    "famous_people": ["Ratan Tata", "Dr. A.P.J. Abdul Kalam", "Narayan Murthy", "Sundar Pichai"],
     "growth_tips": [
-      "Practice expressing emotions and recognizing others' feelings",
-      "Be patient with people who don't think as quickly or strategically",
-      "Share your vision with others instead of keeping it internal",
-      "Balance perfectionism with practical progress"
+      "Balance perfectionism with practicality—progress matters as much as precision",
+      "Learn to communicate ideas empathetically to gain team alignment",
+      "Take breaks to reflect emotionally, not just intellectually",
+      "Practice patience when others work differently from your standards"
     ]
   },
   "INTP": {
     "title": "The Logician",
-    "description": "Innovative thinkers with an endless thirst for knowledge. INTPs are imaginative and analytical, always seeking to understand the underlying principles of the world around them.",
+    "description": "INTPs are analytical innovators who see patterns where others see chaos. They enjoy exploring abstract theories, experimenting with ideas, and deconstructing complex problems. In India, they often become researchers, engineers, or inventors who quietly revolutionize fields through intellect rather than publicity. Though introverted, their creativity and depth of thought can inspire entire movements of change.",
     "percentage": "3-5% of population",
-    "strengths": ["Analytical", "Original", "Open-minded", "Curious", "Objective"],
-    "weaknesses": ["Disconnected from practical matters", "Insensitive", "Absent-minded", "Procrastination"],
+    "strengths": [
+      "Deep analytical ability and intellectual curiosity",
+      "Original thinkers who question assumptions fearlessly",
+      "Open-minded and adaptable to abstract reasoning",
+      "Highly objective and logical in decision-making",
+      "Driven by learning and discovery rather than recognition"
+    ],
+    "weaknesses": [
+      "May get lost in theories without applying them",
+      "Struggle with deadlines and repetitive tasks",
+      "Can seem detached or emotionally distant",
+      "Tend to procrastinate while perfecting ideas"
+    ],
     "careers": [
       "Software Developer",
       "Physicist",
+      "Philosopher",
+      "Data Analyst",
       "Mathematician",
-      "Philosophy Professor",
-      "Game Designer",
-      "Research Analyst"
+      "AI Engineer"
     ],
     "study_habits": [
-      "Learn best through exploration and experimentation",
-      "Excel at understanding complex theories",
-      "May struggle with routine tasks and deadlines",
-      "Need intellectual stimulation to stay engaged"
+      "Love exploring subjects independently through experiments and simulations",
+      "Need freedom from rigid structure to stay motivated",
+      "Prefer conceptual understanding over memorization",
+      "May overthink simple tasks due to curiosity and perfectionism"
     ],
-    "hobbies": ["Theoretical discussions", "Gaming", "Reading sci-fi", "Solving puzzles", "Coding"],
-    "famous_people": ["Albert Einstein", "Bill Gates", "Charles Darwin", "Tina Fey"],
+    "hobbies": ["Reading scientific papers", "Gaming", "Coding", "Building logic puzzles", "Studying astronomy or AI"],
+    "famous_people": ["C. V. Raman", "Srinivasa Ramanujan", "Dr. Homi J. Bhabha", "Vikram Sarabhai"],
     "growth_tips": [
-      "Practice following through on practical tasks",
-      "Engage with people emotionally, not just intellectually",
-      "Set deadlines and stick to them",
-      "Share your ideas before they're perfect"
+      "Convert ideas into real-world action—execution is where brilliance shines",
+      "Balance logic with emotional awareness when working in teams",
+      "Practice consistency instead of waiting for inspiration",
+      "Collaborate early to avoid over-analysis paralysis"
     ]
   },
   "ENTJ": {
     "title": "The Commander",
-    "description": "Bold, imaginative, and strong-willed leaders who always find a way forward. ENTJs are natural-born leaders who excel at organizing people and resources to achieve their goals.",
+    "description": "ENTJs are decisive and ambitious leaders who thrive in structured, results-oriented environments. They naturally command respect through confidence, clarity, and action. In India, ENTJs often emerge as CEOs, policymakers, or charismatic influencers who combine intellect with authority. They possess a relentless drive to bring order and success to chaotic situations, turning vision into execution with efficiency.",
     "percentage": "2-5% of population",
-    "strengths": ["Efficient", "Energetic", "Self-confident", "Strategic", "Charismatic"],
-    "weaknesses": ["Stubborn", "Intolerant", "Impatient", "Arrogant", "Cold"],
+    "strengths": [
+      "Visionary leadership and strategic decision-making",
+      "Unmatched organizational and planning skills",
+      "High confidence and assertive communication",
+      "Goal-oriented with strong execution ability",
+      "Ability to inspire others through determination"
+    ],
+    "weaknesses": [
+      "Can come across as intimidating or overbearing",
+      "May overlook emotional nuances in people management",
+      "Impatient with inefficiency or hesitation",
+      "Struggle to slow down and reflect on personal needs"
+    ],
     "careers": [
-      "CEO/Executive",
+      "Corporate Executive",
       "Entrepreneur",
+      "Politician",
       "Lawyer",
-      "Investment Banker",
-      "Management Consultant",
-      "Project Manager"
+      "Project Director",
+      "Investment Banker"
     ],
     "study_habits": [
-      "Goal-oriented and deadline-driven",
-      "Excel in leadership roles in group projects",
-      "Prefer efficiency and practical application",
-      "May rush through details to reach conclusions"
+      "Organized learners who set clear goals and timelines",
+      "Prefer competitive and structured environments",
+      "Thrive when applying theory to practical leadership scenarios",
+      "Often lead study groups or projects, ensuring efficiency"
     ],
-    "hobbies": ["Business ventures", "Leadership activities", "Strategy games", "Public speaking", "Networking"],
-    "famous_people": ["Steve Jobs", "Margaret Thatcher", "Gordon Ramsay", "Charlize Theron"],
+    "hobbies": ["Public speaking", "Business strategy games", "Networking", "Leadership seminars", "Fitness challenges"],
+    "famous_people": ["Indira Gandhi", "Mukesh Ambani", "Kiran Mazumdar-Shaw", "Amitabh Bachchan"],
     "growth_tips": [
-      "Listen to others' perspectives before deciding",
-      "Be patient with those who work at different paces",
-      "Value emotional intelligence as much as logical efficiency",
-      "Take time to appreciate the journey, not just the destination"
+      "Value emotional intelligence as much as intellectual power",
+      "Encourage others' input to enhance collaboration",
+      "Celebrate milestones rather than only focusing on future goals",
+      "Be patient with those who prefer a slower, reflective pace"
     ]
   },
   "ENTP": {
     "title": "The Debater",
-    "description": "Quick, clever, and curious thinkers who love intellectual challenges. ENTPs are innovative problem-solvers who enjoy exploring new ideas and possibilities.",
+    "description": "ENTPs are lively, inventive thinkers who thrive on debate, ideas, and possibilities. They enjoy challenging assumptions, exploring new angles, and creating unconventional solutions. In India, ENTPs are often found in entrepreneurship, media, and innovation — constantly sparking fresh perspectives and motivating others through enthusiasm. Their verbal wit, curiosity, and mental agility make them magnetic yet unpredictable forces of creativity.",
     "percentage": "3-4% of population",
-    "strengths": ["Knowledgeable", "Quick thinker", "Original", "Charismatic", "Energetic"],
-    "weaknesses": ["Argumentative", "Insensitive", "Intolerant", "Difficulty focusing", "Dislike routine"],
+    "strengths": [
+      "Highly articulate and persuasive communicators",
+      "Quick thinkers with innovative problem-solving skills",
+      "Curious and adaptable to new ideas and challenges",
+      "Charismatic and naturally inspiring to others",
+      "Energized by intellectual discussions and creativity"
+    ],
+    "weaknesses": [
+      "Can lose interest once the novelty fades",
+      "May argue for fun rather than purpose",
+      "Easily distracted by multiple interests",
+      "Impatient with slow or rigid systems"
+    ],
     "careers": [
       "Entrepreneur",
       "Marketing Director",
-      "Inventor",
-      "Software Developer",
-      "Lawyer",
-      "Management Consultant"
+      "Media Host",
+      "Tech Innovator",
+      "Consultant",
+      "Creative Director"
     ],
     "study_habits": [
-      "Excel at brainstorming and generating ideas",
-      "May struggle with follow-through on projects",
-      "Learn best through debate and discussion",
-      "Need variety to stay engaged"
+      "Learn best through active discussion and idea exchange",
+      "Prefer flexible and dynamic learning environments",
+      "Excel when allowed to experiment or brainstorm freely",
+      "May struggle to focus without intellectual stimulation"
     ],
-    "hobbies": ["Debating", "Entrepreneurship", "Traveling", "Innovation projects", "Social experiments"],
-    "famous_people": ["Mark Twain", "Adam Savage", "Sacha Baron Cohen", "Celine Dion"],
+    "hobbies": ["Debating", "Podcasting", "Entrepreneurial ventures", "Traveling", "Social innovation"],
+    "famous_people": ["Shashi Tharoor", "Ranveer Singh", "Karan Johar", "Anand Mahindra"],
     "growth_tips": [
-      "Follow through on your many ideas instead of constantly starting new ones",
-      "Be sensitive to others' feelings during debates",
-      "Develop patience for routine but necessary tasks",
-      "Listen to understand, not just to respond"
+      "Follow through on ideas — consistency builds legacy",
+      "Channel energy into a few focused pursuits instead of many",
+      "Listen to understand, not just to counter",
+      "Respect structure when it supports creative success"
     ]
   },
   "INFJ": {
     "title": "The Advocate",
-    "description": "Quiet yet inspiring idealists who have a deep sense of integrity and are driven by their values. INFJs seek meaning in everything and work to help others reach their potential.",
+    "description": "INFJs are empathetic visionaries who combine deep intuition with a strong moral compass. They seek to uplift others and bring meaningful change to society. In the Indian context, they are often found working quietly behind transformative movements—whether social, spiritual, or creative. Idealistic yet practical, they dream of a more compassionate world and are often drawn to teaching, counseling, or humanitarian work.",
     "percentage": "1-3% of population (rarest type)",
-    "strengths": ["Creative", "Insightful", "Principled", "Passionate", "Altruistic"],
-    "weaknesses": ["Sensitive to criticism", "Perfectionistic", "Private", "Burn out easily"],
+    "strengths": [
+      "Profound empathy and emotional understanding",
+      "Visionary thinking that connects purpose with people",
+      "Excellent listeners and motivators",
+      "Strong sense of personal integrity and moral responsibility",
+      "Creative and intuitive problem-solvers"
+    ],
+    "weaknesses": [
+      "Overly sensitive to criticism or conflict",
+      "Can be perfectionistic and self-sacrificing",
+      "Tend to internalize others' emotions",
+      "May struggle with practicality when overwhelmed by ideals"
+    ],
     "careers": [
-      "Counselor/Therapist",
-      "Writer",
+      "Counselor or Psychologist",
+      "Writer or Poet",
+      "Teacher or Professor",
+      "Social Worker",
       "Human Rights Advocate",
-      "Psychologist",
-      "Teacher",
-      "Non-profit Director"
+      "Spiritual Mentor"
     ],
     "study_habits": [
-      "Connect learning to personal meaning and values",
-      "Excel at understanding complex human behavior",
-      "Prefer depth over breadth",
-      "Need quiet time to process information"
+      "Learn best when knowledge aligns with inner purpose",
+      "Prefer deep, meaningful study over broad topics",
+      "Enjoy reflective writing and conceptual analysis",
+      "Need quiet environments to process ideas deeply"
     ],
-    "hobbies": ["Writing", "Counseling others", "Reading", "Art", "Volunteering"],
-    "famous_people": ["Nelson Mandela", "Martin Luther King Jr.", "Mother Teresa", "Oprah Winfrey"],
+    "hobbies": ["Reading philosophy", "Meditation", "Writing poetry", "Volunteering", "Mentoring youth"],
+    "famous_people": ["Mahatma Gandhi", "Rabindranath Tagore", "Medha Patkar", "J. Krishnamurti"],
     "growth_tips": [
-      "Don't take criticism personally - separate yourself from your ideas",
-      "Set boundaries to avoid burnout from helping others",
-      "Share your insights instead of keeping them private",
-      "Accept that not everything can be perfect"
+      "Set emotional boundaries to avoid burnout",
+      "Balance idealism with realistic planning",
+      "Express ideas publicly even if they feel vulnerable",
+      "Accept imperfection as part of progress"
     ]
   },
   "INFP": {
     "title": "The Mediator",
-    "description": "Poetic, kind, and altruistic, always eager to help a good cause. INFPs are guided by their values and seek to understand themselves and others on a deep level.",
+    "description": "INFPs are gentle dreamers guided by values and empathy. They search for authenticity in relationships, creativity, and purpose. In India, they are often artists, writers, or healers who challenge norms quietly through kindness and imagination. They find beauty in introspection and often devote themselves to causes that resonate with their ideals. Sensitive yet resilient, they inspire others through sincerity rather than status.",
     "percentage": "4-5% of population",
-    "strengths": ["Empathetic", "Creative", "Open-minded", "Passionate", "Idealistic"],
-    "weaknesses": ["Overly idealistic", "Self-critical", "Impractical", "Difficult to know", "Take things personally"],
+    "strengths": [
+      "Highly empathetic and compassionate toward others",
+      "Imaginative and gifted in creative expression",
+      "Authentic and values-driven decision-making",
+      "Deep understanding of emotions and human experience",
+      "Open-minded and adaptable in diverse situations"
+    ],
+    "weaknesses": [
+      "May struggle to stay grounded in practical matters",
+      "Easily discouraged by criticism or harsh environments",
+      "Prone to procrastination when uninspired",
+      "Can isolate themselves when overwhelmed emotionally"
+    ],
     "careers": [
-      "Writer/Author",
+      "Writer or Author",
       "Graphic Designer",
       "Psychologist",
       "Social Worker",
-      "Musician",
-      "Counselor"
+      "Musician or Lyricist",
+      "Film Scriptwriter"
     ],
     "study_habits": [
-      "Need to connect learning to personal values",
-      "Excel in creative and expressive assignments",
-      "May struggle with rigid structures and deadlines",
-      "Learn best in supportive, non-competitive environments"
+      "Need emotional or creative connection to stay motivated",
+      "Prefer flexible, personalized learning environments",
+      "Excel in subjects that allow imagination and empathy",
+      "May need structure to avoid distraction or daydreaming"
     ],
-    "hobbies": ["Creative writing", "Art", "Music", "Helping others", "Exploring nature"],
-    "famous_people": ["J.R.R. Tolkien", "William Shakespeare", "Princess Diana", "Johnny Depp"],
+    "hobbies": ["Creative writing", "Music", "Painting", "Spiritual reading", "Helping in NGOs"],
+    "famous_people": ["A. R. Rahman", "Vidya Balan", "Sushant Singh Rajput", "Kalki Koechlin"],
     "growth_tips": [
-      "Balance idealism with practical action steps",
-      "Don't be so hard on yourself - embrace imperfection",
-      "Share your creative work even if it feels incomplete",
-      "Set healthy boundaries in relationships"
-    ]
-  },
-  "ENFP": {
-    "title": "The Campaigner",
-    "description": "Enthusiastic, creative, and sociable free spirits who can always find a reason to smile. ENFPs are energized by possibilities and passionate about making meaningful connections.",
-    "percentage": "7-8% of population",
-    "strengths": ["Enthusiastic", "Creative", "Sociable", "Energetic", "Empathetic"],
-    "weaknesses": ["Overthinking", "Get stressed easily", "Overly emotional", "Difficulty focusing", "Poor practical skills"],
-    "careers": [
-      "Marketing Manager",
-      "Journalist",
-      "Actor",
-      "Counselor",
-      "Event Planner",
-      "Public Relations Specialist"
-    ],
-    "study_habits": [
-      "Excel in group projects and collaborative learning",
-      "Need variety and creativity to stay engaged",
-      "May struggle with repetitive tasks and details",
-      "Learn best through hands-on experience"
-    ],
-    "hobbies": ["Meeting new people", "Creative projects", "Traveling", "Performing", "Social causes"],
-    "famous_people": ["Robin Williams", "Ellen DeGeneres", "Robert Downey Jr.", "Jennifer Aniston"],
-    "growth_tips": [
-      "Follow through on commitments instead of chasing new possibilities",
-      "Develop organizational systems to manage your energy",
-      "Take time to recharge even though you love being social",
-      "Focus on completing projects before starting new ones"
+      "Balance idealism with concrete steps and deadlines",
+      "Learn to accept constructive feedback gracefully",
+      "Channel emotions into consistent creative work",
+      "Build routines that support long-term dreams"
     ]
   },
   "ENFJ": {
     "title": "The Protagonist",
-    "description": "Charismatic and inspiring leaders who are passionate about helping others realize their potential. ENFJs are natural teachers and mentors driven by genuine care for people.",
+    "description": "ENFJs are charismatic motivators who bring people together through compassion and vision. They lead by inspiration and empathy, guiding others toward growth and unity. In the Indian context, ENFJs often shine as teachers, public speakers, or leaders in community development, using their emotional intelligence to connect across social boundaries. They thrive when their influence creates tangible good for society.",
     "percentage": "2-5% of population",
-    "strengths": ["Charismatic", "Altruistic", "Natural leaders", "Reliable", "Inspiring"],
-    "weaknesses": ["Overly idealistic", "Too selfless", "Sensitive to criticism", "Difficulty making tough decisions"],
+    "strengths": [
+      "Natural leadership and emotional intelligence",
+      "Deeply empathetic and nurturing toward others",
+      "Excellent communicators and motivators",
+      "Organized and reliable under pressure",
+      "Passionate about improving communities"
+    ],
+    "weaknesses": [
+      "May neglect self-care in pursuit of helping others",
+      "Can become overly sensitive to rejection or disapproval",
+      "Struggle to delegate or say no",
+      "Sometimes make decisions based on emotion over logic"
+    ],
     "careers": [
-      "Teacher",
-      "HR Manager",
-      "Life Coach",
-      "Non-profit Director",
+      "Teacher or Professor",
+      "Corporate Trainer",
+      "Non-Profit Director",
+      "Public Relations Officer",
       "Politician",
-      "Corporate Trainer"
+      "Human Resource Manager"
     ],
     "study_habits": [
-      "Excel in leadership and mentoring roles",
-      "Prefer collaborative learning environments",
-      "Connect learning to helping others",
-      "May over-commit to group responsibilities"
+      "Thrive in collaborative learning and discussion groups",
+      "Relate material to real-world human impact",
+      "Often help peers understand difficult subjects",
+      "Need encouragement to focus on their own growth"
     ],
-    "hobbies": ["Community organizing", "Mentoring", "Public speaking", "Teaching", "Event planning"],
-    "famous_people": ["Barack Obama", "Oprah Winfrey", "Maya Angelou", "Jennifer Lawrence"],
+    "hobbies": ["Public speaking", "Mentoring", "Community service", "Organizing events", "Motivational reading"],
+    "famous_people": ["Dr. A.P.J. Abdul Kalam", "Deepika Padukone", "Shah Rukh Khan", "Smriti Irani"],
     "growth_tips": [
-      "Learn to say no - you can't help everyone",
-      "Make decisions based on logic too, not just harmony",
-      "Take care of your own needs, not just others'",
-      "Accept that not everyone will appreciate your help"
+      "Prioritize personal well-being alongside service",
+      "Balance empathy with rational analysis in decisions",
+      "Set clear boundaries in emotional commitments",
+      "Celebrate small wins rather than only outcomes"
+    ]
+  },
+  "ENFP": {
+    "title": "The Campaigner",
+    "description": "ENFPs are enthusiastic innovators brimming with creativity and optimism. They inspire others with warmth, humor, and passion for new ideas. In India, they are often actors, influencers, or entrepreneurs who thrive on variety and human connection. Their energy and authenticity make them natural motivators, though they must learn to sustain focus for lasting impact.",
+    "percentage": "7-8% of population",
+    "strengths": [
+      "Charismatic and socially engaging",
+      "Imaginative and full of innovative ideas",
+      "Empathetic and easily connect with diverse people",
+      "Adaptable and spontaneous in changing situations",
+      "Inspire others with enthusiasm and optimism"
+    ],
+    "weaknesses": [
+      "May struggle with consistency or routine work",
+      "Prone to stress or emotional burnout",
+      "Can be distracted by multiple interests at once",
+      "Occasionally overcommit or idealize outcomes"
+    ],
+    "careers": [
+      "Marketing Manager",
+      "Actor or Performer",
+      "Journalist",
+      "Counselor",
+      "Event Planner",
+      "Public Relations Executive"
+    ],
+    "study_habits": [
+      "Engage best in dynamic, interactive environments",
+      "Enjoy collaborative brainstorming and creative projects",
+      "May lose focus on repetitive or theoretical work",
+      "Benefit from visual and experiential learning"
+    ],
+    "hobbies": ["Performing arts", "Traveling", "Storytelling", "Volunteering", "Social networking"],
+    "famous_people": ["Priyanka Chopra Jonas", "Ranbir Kapoor", "Virat Kohli", "Alia Bhatt"],
+    "growth_tips": [
+      "Learn to complete projects before starting new ones",
+      "Use structure to support creative flow",
+      "Take time to recharge privately",
+      "Balance excitement with long-term consistency"
     ]
   },
   "ISTJ": {
     "title": "The Logistician",
-    "description": "Practical and fact-minded individuals whose reliability cannot be doubted. ISTJs are responsible organizers driven by their dedication to duty and tradition.",
+    "description": "ISTJs are dependable, disciplined, and highly responsible individuals who thrive on order and clarity. They are the backbone of organizations, ensuring that plans turn into precise execution. In the Indian context, ISTJs often embody the traditional value of 'karma'—doing one's duty with sincerity and integrity. They excel in structured environments like government services, engineering, finance, and law, where consistency and logic are prized.",
     "percentage": "11-14% of population",
-    "strengths": ["Honest", "Direct", "Strong-willed", "Dutiful", "Practical"],
-    "weaknesses": ["Stubborn", "Insensitive", "Judgmental", "Resistant to change"],
+    "strengths": [
+      "Strong sense of duty and dependability",
+      "Thorough attention to detail and accuracy",
+      "Excellent at organizing and implementing systems",
+      "Value honesty, loyalty, and hard work",
+      "Resilient under stress and reliable in crises"
+    ],
+    "weaknesses": [
+      "Can resist change or unconventional ideas",
+      "May struggle to express emotions openly",
+      "Sometimes overly cautious or rigid",
+      "Focus on rules may limit creative exploration"
+    ],
     "careers": [
+      "Civil Servant",
       "Accountant",
+      "Engineer",
       "Auditor",
-      "Military Officer",
-      "Project Manager",
-      "Database Administrator",
-      "Legal Professional"
+      "Judge",
+      "Bank Officer"
     ],
     "study_habits": [
-      "Methodical and organized approach to learning",
-      "Excel at memorization and following procedures",
-      "Prefer clear structure and expectations",
-      "May resist unconventional teaching methods"
+      "Prefer structured, rule-based learning environments",
+      "Excel at memorization and procedural learning",
+      "Thrive on consistent routines and organization",
+      "Dislike last-minute changes or disorganized plans"
     ],
-    "hobbies": ["Organizing", "Traditional crafts", "Historical research", "Collecting", "Home improvement"],
-    "famous_people": ["George Washington", "Warren Buffett", "Angela Merkel", "Denzel Washington"],
+    "hobbies": ["Organizing collections", "Home improvement", "Historical research", "Finance tracking", "Community service"],
+    "famous_people": ["Manmohan Singh", "Anand Mahindra", "Raghuram Rajan", "E. Sreedharan"],
     "growth_tips": [
-      "Be open to new methods even if they're unconventional",
-      "Consider others' feelings in your direct communication",
-      "Embrace change as an opportunity, not a threat",
-      "Balance duty with spontaneity and fun"
+      "Be open to new perspectives even when they seem unconventional",
+      "Recognize that flexibility can enhance efficiency",
+      "Acknowledge emotions as valid data, not distractions",
+      "Balance duty with relaxation and creative spontaneity"
     ]
   },
   "ISFJ": {
     "title": "The Defender",
-    "description": "Very dedicated and warm protectors, always ready to defend their loved ones. ISFJs are caring and reliable individuals who value harmony and tradition.",
+    "description": "ISFJs are gentle, nurturing, and deeply loyal protectors who find fulfillment in caring for others. They are quiet achievers who bring stability, warmth, and tradition to every setting. In India, ISFJs often embody the role of the selfless caregiver—whether as a teacher, parent, nurse, or social worker—preserving family and community values through dependable service and compassion.",
     "percentage": "9-14% of population",
-    "strengths": ["Supportive", "Reliable", "Patient", "Practical", "Observant"],
-    "weaknesses": ["Overly humble", "Take things personally", "Repress feelings", "Reluctant to change"],
+    "strengths": [
+      "Empathetic and reliable in relationships",
+      "Detail-oriented and hardworking",
+      "Excellent at anticipating others' needs",
+      "Deeply loyal and protective of loved ones",
+      "Calm and consistent under pressure"
+    ],
+    "weaknesses": [
+      "Reluctant to change or step outside comfort zones",
+      "May suppress emotions to maintain harmony",
+      "Can overextend themselves trying to please others",
+      "Take criticism too personally"
+    ],
     "careers": [
-      "Nurse",
       "Teacher",
+      "Nurse",
       "Social Worker",
-      "Office Manager",
-      "Interior Designer",
-      "Librarian"
+      "Administrative Officer",
+      "Librarian",
+      "Interior Designer"
     ],
     "study_habits": [
-      "Detail-oriented and thorough",
-      "Excel at practical, hands-on learning",
-      "Prefer structured environments with clear expectations",
-      "May need encouragement to share ideas"
+      "Diligent learners who thrive under clear guidance",
+      "Prefer hands-on, practical learning approaches",
+      "Excel in structured subjects with visible outcomes",
+      "Need encouragement to share their opinions confidently"
     ],
-    "hobbies": ["Caring for others", "Cooking", "Gardening", "Crafts", "Volunteering"],
-    "famous_people": ["Mother Teresa", "Kate Middleton", "Rosa Parks", "Beyoncé"],
+    "hobbies": ["Cooking", "Gardening", "Volunteering", "Crafts", "Caring for family members"],
+    "famous_people": ["Lata Mangeshkar", "Mother Teresa", "Sachin Tendulkar", "Hema Malini"],
     "growth_tips": [
-      "Learn to say no without feeling guilty",
-      "Express your needs instead of always putting others first",
-      "Accept recognition for your contributions",
-      "Be more open to change and new experiences"
+      "Learn to say no without guilt when overcommitted",
+      "Express your emotions openly and assertively",
+      "Accept recognition instead of downplaying your contributions",
+      "Embrace gradual change as an opportunity for growth"
     ]
   },
   "ESTJ": {
     "title": "The Executive",
-    "description": "Excellent administrators who excel at managing people and processes. ESTJs are organized, decisive, and committed to upholding traditions and order.",
+    "description": "ESTJs are strong-willed organizers and natural administrators who ensure systems run efficiently. They uphold structure, discipline, and accountability traits that make them exceptional leaders in business, politics, or defense. In India, ESTJs represent the doers who bring order to chaos, blending authority with practicality. They thrive on tangible results and are often respected for their integrity and reliability.",
     "percentage": "8-12% of population",
-    "strengths": ["Dedicated", "Strong-willed", "Honest", "Loyal", "Organized"],
-    "weaknesses": ["Inflexible", "Uncomfortable with unconventional situations", "Judgmental", "Too focused on status"],
+    "strengths": [
+      "Highly organized and disciplined leaders",
+      "Loyal and responsible toward commitments",
+      "Decisive and confident in managing teams",
+      "Value tradition, structure, and clear hierarchy",
+      "Efficient at executing complex plans"
+    ],
+    "weaknesses": [
+      "May be rigid or inflexible with unconventional ideas",
+      "Can come across as controlling or dominating",
+      "Tend to overlook emotional aspects of decisions",
+      "Sometimes focus too much on authority or status"
+    ],
     "careers": [
       "Operations Manager",
-      "Business Administrator",
       "Military Officer",
+      "Business Administrator",
       "Judge",
       "Financial Officer",
-      "School Principal"
+      "Politician"
     ],
     "study_habits": [
-      "Goal-oriented and deadline-focused",
-      "Excel at organizing study groups and projects",
-      "Prefer traditional, proven learning methods",
-      "May struggle with abstract or theoretical concepts"
+      "Goal-driven learners with structured study schedules",
+      "Prefer logical and tested learning methods",
+      "Take initiative in group projects or leadership roles",
+      "May find abstract or theoretical subjects tedious"
     ],
-    "hobbies": ["Leadership activities", "Community service", "Sports", "Home organization", "Traditional games"],
-    "famous_people": ["Judge Judy", "John D. Rockefeller", "Frank Sinatra", "Michelle Obama"],
+    "hobbies": ["Sports", "Leadership activities", "Volunteering", "Home organization", "Traditional games"],
+    "famous_people": ["Nirmala Sitharaman", "Ratan Tata", "Sunil Gavaskar", "Amit Shah"],
     "growth_tips": [
-      "Be flexible when situations don't go according to plan",
-      "Consider feelings and values, not just facts and efficiency",
-      "Listen to alternative viewpoints before deciding",
-      "Balance work with relaxation and spontaneity"
+      "Be open to creative and flexible solutions",
+      "Value emotional intelligence in teamwork",
+      "Avoid judging others too quickly based on rules",
+      "Balance hard work with rest and personal joy"
     ]
   },
   "ESFJ": {
     "title": "The Consul",
-    "description": "Caring, social, and popular people who are always eager to help. ESFJs are warm-hearted organizers who value harmony and tradition in their communities.",
+    "description": "ESFJs are warm, sociable, and service-oriented individuals who love to bring people together. They are the emotional anchors of their communities—empathetic, generous, and loyal. In the Indian context, ESFJs embody the spirit of togetherness, thriving in family gatherings, social organizations, and careers that involve care and communication. They are natural nurturers who find joy in being appreciated and making others happy.",
     "percentage": "9-13% of population",
-    "strengths": ["Strong practical skills", "Strong sense of duty", "Loyal", "Sensitive", "Warm"],
-    "weaknesses": ["Worried about social status", "Inflexible", "Reluctant to innovate", "Needy"],
+    "strengths": [
+      "Sincere and emotionally intelligent communicators",
+      "Excellent at maintaining social harmony",
+      "Reliable and attentive to others' needs",
+      "Organized and responsible in managing duties",
+      "Warm and approachable in personal and professional life"
+    ],
+    "weaknesses": [
+      "May depend too much on others' approval",
+      "Struggle with criticism or emotional rejection",
+      "Can resist innovation that challenges norms",
+      "Tend to overcommit to please people"
+    ],
     "careers": [
-      "Event Coordinator",
+      "Event Planner",
+      "Teacher",
       "Nurse",
-      "Office Manager",
+      "Public Relations Specialist",
       "Social Worker",
-      "Public Relations",
-      "Teacher"
+      "Customer Relations Executive"
     ],
     "study_habits": [
-      "Excel in collaborative learning environments",
-      "Prefer structured courses with clear expectations",
-      "Motivated by helping and connecting with others",
-      "May need external validation and feedback"
+      "Excel in cooperative and structured learning setups",
+      "Motivated by positive feedback and appreciation",
+      "Prefer practical applications over abstract ideas",
+      "May need help focusing on individual goals amid teamwork"
     ],
-    "hobbies": ["Hosting events", "Volunteering", "Party planning", "Cooking for others", "Community activities"],
-    "famous_people": ["Taylor Swift", "Jennifer Garner", "Sally Field", "Danny Glover"],
+    "hobbies": ["Hosting events", "Cooking for family", "Volunteering", "Social gatherings", "Cultural activities"],
+    "famous_people": ["Kajol", "Madhuri Dixit", "Dia Mirza", "Sania Mirza"],
     "growth_tips": [
-      "Don't base your self-worth on others' opinions",
-      "Be open to new ideas even if they challenge tradition",
-      "Focus on your own needs, not just pleasing others",
-      "Accept that you can't make everyone happy"
+      "Don't base your self-worth solely on external validation",
+      "Be open to differing opinions and innovation",
+      "Learn to say no to maintain personal boundaries",
+      "Balance your giving nature with self-care"
     ]
   },
   "ISTP": {
     "title": "The Virtuoso",
-    "description": "Bold and practical experimenters who master tools and techniques. ISTPs are efficient problem-solvers who enjoy understanding how things work.",
+    "description": "ISTPs are practical problem-solvers who thrive on hands-on exploration and technical mastery. They remain calm under pressure, using logical thinking and adaptability to navigate challenges. In the Indian context, ISTPs often excel as mechanics, engineers, technicians, or skilled craftspeople—quietly building and fixing things with precision. They value independence and prefer action over words, making them resourceful and resilient in any situation.",
     "percentage": "4-6% of population",
-    "strengths": ["Optimistic", "Energetic", "Creative", "Practical", "Spontaneous"],
-    "weaknesses": ["Stubborn", "Insensitive", "Private", "Easily bored", "Risk-prone"],
+    "strengths": [
+      "Excellent hands-on problem-solving abilities",
+      "Calm and composed in high-pressure situations",
+      "Highly adaptable and resourceful",
+      "Logical thinkers with practical focus",
+      "Independent and self-reliant"
+    ],
+    "weaknesses": [
+      "May appear detached or emotionally reserved",
+      "Struggle with long-term planning and commitments",
+      "Can be impulsive or risk-taking",
+      "Dislike abstract theories without practical application"
+    ],
     "careers": [
-      "Mechanic",
-      "Engineer",
+      "Mechanical Engineer",
+      "Electrician",
       "Pilot",
-      "Paramedic",
-      "Forensic Scientist",
-      "Software Developer"
+      "Carpenter",
+      "Sports Athlete",
+      "Technical Specialist"
     ],
     "study_habits": [
-      "Learn best through hands-on experience",
-      "Excel at understanding systems and mechanisms",
-      "May struggle with theoretical or abstract concepts",
-      "Need practical application to stay engaged"
+      "Learn best through practical, hands-on experiences",
+      "Prefer learning by doing rather than reading",
+      "Excel in technical and skill-based subjects",
+      "May struggle with theoretical or overly abstract topics"
     ],
-    "hobbies": ["Working with tools", "Sports", "Video games", "Motorcycling", "Troubleshooting"],
-    "famous_people": ["Clint Eastwood", "Bear Grylls", "Michael Jordan", "Scarlett Johansson"],
+    "hobbies": ["Repairing gadgets", "Motorcycling", "Adventure sports", "Woodworking", "Gaming"],
+    "famous_people": ["M.S. Dhoni", "Rajinikanth", "Mary Kom", "Pullela Gopichand"],
     "growth_tips": [
-      "Consider long-term consequences, not just immediate action",
-      "Express your thoughts and feelings to others",
-      "Commit to finishing projects before moving to new ones",
-      "Be patient with people who aren't as practical"
+      "Develop patience for long-term goals and planning",
+      "Practice expressing emotions to build deeper connections",
+      "Balance spontaneity with responsibility",
+      "Engage with theoretical concepts to broaden perspectives"
     ]
   },
   "ISFP": {
     "title": "The Adventurer",
-    "description": "Flexible and charming artists who are always ready to explore and experience something new. ISFPs live in the present moment and express themselves creatively.",
+    "description": "ISFPs are gentle, artistic souls who live in the present moment and express themselves through creativity. They value authenticity, beauty, and personal freedom. In the Indian context, ISFPs often become artists, musicians, designers, or caregivers who quietly enrich the world with their sensitivity and compassion. They avoid conflict and prefer harmony, bringing warmth and spontaneity to their relationships.",
     "percentage": "5-9% of population",
-    "strengths": ["Charming", "Sensitive", "Imaginative", "Passionate", "Curious"],
-    "weaknesses": ["Fiercely independent", "Unpredictable", "Easily stressed", "Overly competitive", "Fluctuating self-esteem"],
+    "strengths": [
+      "Highly creative and artistically gifted",
+      "Empathetic and sensitive to others' emotions",
+      "Spontaneous and present-focused",
+      "Value authenticity and personal expression",
+      "Peaceful and non-judgmental nature"
+    ],
+    "weaknesses": [
+      "May struggle with long-term planning",
+      "Can be overly sensitive to criticism",
+      "Avoid confrontation, sometimes to their detriment",
+      "Difficulty expressing needs verbally"
+    ],
     "careers": [
-      "Artist",
+      "Artist or Painter",
+      "Fashion Designer",
       "Musician",
-      "Designer",
-      "Chef",
+      "Photographer",
       "Veterinarian",
-      "Physical Therapist"
+      "Interior Decorator"
     ],
     "study_habits": [
-      "Excel in creative and artistic subjects",
-      "Learn best through hands-on, experiential methods",
-      "May struggle with rigid structure and deadlines",
-      "Need personal connection to material"
+      "Learn best through creative and experiential methods",
+      "Prefer flexible, unstructured learning environments",
+      "Excel in subjects involving art, design, or emotion",
+      "May need external motivation to maintain consistency"
     ],
-    "hobbies": ["Art", "Music", "Nature activities", "Cooking", "Photography"],
-    "famous_people": ["Michael Jackson", "Britney Spears", "Lana Del Rey", "Frida Kahlo"],
+    "hobbies": ["Painting", "Music", "Dancing", "Nature walks", "Photography"],
+    "famous_people": ["Lata Mangeshkar", "Irrfan Khan", "Rekha", "Zakir Hussain"],
     "growth_tips": [
-      "Develop long-term goals alongside living in the moment",
-      "Don't take criticism of your work as criticism of yourself",
-      "Practice follow-through on commitments",
-      "Build confidence in your unique talents"
+      "Develop discipline to turn creative passions into careers",
+      "Learn to express needs and boundaries clearly",
+      "Balance present focus with future planning",
+      "Practice accepting constructive criticism gracefully"
     ]
   },
   "ESTP": {
     "title": "The Entrepreneur",
-    "description": "Smart, energetic, and perceptive people who truly enjoy living on the edge. ESTPs are action-oriented problem-solvers who thrive in dynamic environments.",
-    "percentage": "4-5% of population",
-    "strengths": ["Bold", "Rational", "Practical", "Original", "Perceptive"],
-    "weaknesses": ["Insensitive", "Impatient", "Risk-prone", "Unstructured", "Difficulty with long-term planning"],
+    "description": "ESTPs are energetic, bold, and action-oriented individuals who thrive on excitement and challenge. They are natural problem-solvers who think on their feet and adapt quickly to changing situations. In India, ESTPs often excel in business, sports, sales, or entertainment—where their charisma, confidence, and decisiveness help them seize opportunities. They live in the moment and inspire others through their dynamic presence.",
+    "percentage": "4-10% of population",
+    "strengths": [
+      "Bold and action-oriented decision-makers",
+      "Excellent at improvising and thinking quickly",
+      "Charismatic and socially confident",
+      "Practical problem-solvers focused on results",
+      "Adaptable and energized by new experiences"
+    ],
+    "weaknesses": [
+      "May be impulsive or take unnecessary risks",
+      "Can be insensitive to others' feelings",
+      "Struggle with long-term planning and patience",
+      "Dislike routine and theoretical learning"
+    ],
     "careers": [
       "Entrepreneur",
-      "Sales Manager",
-      "Paramedic",
-      "Detective",
+      "Sales Executive",
+      "Event Manager",
+      "Sports Professional",
       "Stock Trader",
-      "Marketing Director"
+      "Marketing Strategist"
     ],
     "study_habits": [
-      "Learn by doing and taking action",
-      "Excel in high-energy, competitive environments",
-      "May struggle with theoretical or abstract concepts",
-      "Need practical application and immediate results"
+      "Thrive in competitive and fast-paced environments",
+      "Prefer practical application over theory",
+      "Learn best through action and real-world experience",
+      "May struggle with prolonged focus on abstract topics"
     ],
-    "hobbies": ["Extreme sports", "Entrepreneurship", "Travel", "Social activities", "Competition"],
-    "famous_people": ["Donald Trump", "Madonna", "Eddie Murphy", "Bruce Willis"],
+    "hobbies": ["Sports", "Partying", "Travel", "Adventure activities", "Business ventures"],
+    "famous_people": ["Virat Kohli", "Salman Khan", "Kapil Sharma", "Gautam Adani"],
     "growth_tips": [
-      "Think before you act - consider long-term consequences",
-      "Be sensitive to others' feelings in your directness",
-      "Develop patience for planning and preparation",
-      "Balance thrill-seeking with stability"
+      "Develop patience and think through long-term consequences",
+      "Practice empathy and emotional awareness",
+      "Balance excitement with responsibility and planning",
+      "Reflect before acting to avoid impulsive decisions"
     ]
   },
   "ESFP": {
     "title": "The Entertainer",
-    "description": "Spontaneous, energetic, and enthusiastic people who love life and all its possibilities. ESFPs are natural performers who bring joy and excitement wherever they go.",
+    "description": "ESFPs are spontaneous, fun-loving individuals who bring energy and joy wherever they go. They are natural performers who thrive on social interaction and live fully in the present. In the Indian context, ESFPs often shine as actors, hosts, event planners, or teachers—spreading positivity and connection. Their warmth, humor, and enthusiasm make them the life of any gathering, though they must balance fun with focus.",
     "percentage": "4-9% of population",
-    "strengths": ["Bold", "Original", "Practical", "Observant", "Excellent people skills"],
-    "weaknesses": ["Sensitive", "Conflict-averse", "Easily bored", "Poor long-term focus", "Difficulty with abstract thinking"],
+    "strengths": [
+      "Naturally warm and socially engaging",
+      "Spontaneous and adaptable to change",
+      "Excellent at entertaining and uplifting others",
+      "Practical and observant of immediate needs",
+      "Live fully in the moment with enthusiasm"
+    ],
+    "weaknesses": [
+      "May avoid serious or difficult conversations",
+      "Struggle with long-term planning and discipline",
+      "Can be overly sensitive to criticism",
+      "Easily bored by routine or repetitive tasks"
+    ],
     "careers": [
-      "Performer",
-      "Event Planner",
+      "Actor or Performer",
+      "Event Coordinator",
+      "Teacher",
       "Flight Attendant",
-      "Sales Representative",
-      "Fitness Trainer",
-      "Public Relations"
+      "Tour Guide",
+      "Fitness Trainer"
     ],
     "study_habits": [
-      "Learn best through active, social experiences",
-      "Excel in performance and presentation-based assessments",
-      "May struggle with solitary study and abstract theory",
-      "Need variety and stimulation to stay engaged"
+      "Learn best in social and interactive settings",
+      "Prefer hands-on and experiential learning",
+      "May struggle with solitary or theoretical study",
+      "Benefit from study groups and collaborative projects"
     ],
-    "hobbies": ["Performing", "Socializing", "Fashion", "Dancing", "Travel"],
-    "famous_people": ["Marilyn Monroe", "Elvis Presley", "Jamie Oliver", "Serena Williams"],
+    "hobbies": ["Dancing", "Performing", "Socializing", "Shopping", "Outdoor activities"],
+    "famous_people": ["Ranveer Singh", "Katrina Kaif", "Kapil Dev", "Farah Khan"],
     "growth_tips": [
-      "Develop skills in planning and follow-through",
-      "Balance living in the moment with preparing for the future",
-      "Face conflicts directly instead of avoiding them",
-      "Build discipline for tasks that aren't immediately fun"
+      "Develop focus and consistency in pursuing goals",
+      "Balance spontaneity with planning and responsibility",
+      "Practice handling criticism without taking it personally",
+      "Create structure to support long-term success"
     ]
   }
 }

@@ -100,8 +100,8 @@ export default function QuestionnaireTest() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-600 via-purple-600 to-blue-600">
-      <Navbar showBackButton={true} backTo="/" />
-
+      <Navbar  />
+      {/* showBackButton={true} backTo="/" */}
       <div className="max-w-4xl mx-auto px-4 py-6">
         {/* Header - Compact with Exit button */}
         <div className="flex items-center justify-between mb-6">

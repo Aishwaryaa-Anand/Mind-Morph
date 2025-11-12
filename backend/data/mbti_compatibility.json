@@ -1,321 +1,337 @@
 {
   "INTJ": {
-    "best_matches": ["ENFP", "ENTP", "INFJ"],
+    "best_matches": [
+      "ENFP",
+      "ENTP",
+      "INFJ"
+    ],
     "compatibility": {
       "ENFP": {
-        "score": 95,
-        "why": "ENFPs bring warmth and spontaneity that balances INTJ's structured approach. Both value deep intellectual connection and future-oriented thinking.",
-        "challenges": "INTJ's need for planning may clash with ENFP's spontaneity. Communication about emotional needs is crucial."
+        "why": "You two are like puzzle pieces that fit perfectly! ENFPs bring the warmth and spontaneity that melts your strategic heart, while you give them the structure they secretly crave. Your late-night conversations about the future and big ideas? Absolutely magical. They'll make you laugh when you're too serious, and you'll help turn their dreams into actual plans.",
+        "challenges": "Your need to plan everything three months in advance might clash with their 'let's decide on Friday what we're doing Saturday' vibe. They might call you rigid, you might call them chaotic. The secret? Schedule some spontaneity (yes, really) and let them know your planning comes from care, not control."
       },
       "ENTP": {
-        "score": 90,
-        "why": "Shared love of ideas and intellectual debates. Both enjoy strategic thinking and innovative problem-solving.",
-        "challenges": "Both can be argumentative. Need to balance debate with emotional connection."
+        "why": "Intellectual soulmates alert! You both love dissecting ideas at 2 AM and building elaborate theories about everything. They match your strategic thinking but add a playful twist that keeps things interesting. Debates with them? Chef's kiss. They'll challenge you in the best way possible, and you'll actually respect them for it.",
+        "challenges": "Here's the thing - you both LOVE being right, and sometimes your 'friendly debates' can feel like verbal chess matches where someone has to win. Remember that your partner's feelings exist even when you're proving a point. Not everything needs to be a debate, and sometimes 'you might be right' is a perfectly good response."
       },
       "INFJ": {
-        "score": 88,
-        "why": "Deep intuitive understanding and shared vision for the future. Both value independence and meaningful conversation.",
-        "challenges": "Both can be stubborn in their convictions. May need to work on expressing emotions openly."
+        "why": "The quiet understanding you share is rare and precious. You both see patterns others miss and think deeply about the future. They get your need for alone time without taking it personally, and you appreciate their emotional depth without finding it overwhelming. Together, you can literally finish each other's sentences about complex topics.",
+        "challenges": "You're both stubborn as heck when you think you're right, and neither of you is great at admitting when you're wrong first. Plus, you can both get stuck in your heads and forget to actually TELL each other how you feel. Set a reminder if you have to, but say 'I love you' out loud - don't just assume they know."
       }
     }
   },
   "INTP": {
-    "best_matches": ["ENTJ", "ENFJ", "INFJ"],
+    "best_matches": [
+      "ENTJ",
+      "ENFJ",
+      "INFJ"
+    ],
     "compatibility": {
       "ENTJ": {
-        "score": 92,
-        "why": "Complementary strengths - INTP provides analysis, ENTJ provides execution. Both value competence and logical thinking.",
-        "challenges": "ENTJ's directness may feel harsh to INTP. Need to balance thinking with emotional awareness."
+        "why": "You're the genius behind the scenes, they're the powerhouse making it happen. ENTJs actually value your deep analysis and won't dismiss your ideas as 'overthinking.' They'll take your brilliant theories and turn them into reality, which honestly? Super attractive. You finally found someone who gets excited about efficiency and competence as much as you do.",
+        "challenges": "ENTJs can come across as pretty intense and bossy, which might make you want to retreat into your mind palace. They might see your laid-back approach as lazy when you're actually just processing. Key move: Speak up when they're being too controlling, and they need to remember that your quiet doesn't mean you don't care."
       },
       "ENFJ": {
-        "score": 87,
-        "why": "ENFJ's warmth draws out INTP's social side. INTP provides logical perspective to ENFJ's decisions.",
-        "challenges": "Different social needs. ENFJ may feel INTP is too detached emotionally."
+        "why": "ENFJs have this magical ability to make you feel comfortable being social without draining all your energy. They bring warmth and emotional intelligence to your logical world, and you help them think through decisions more rationally. They'll gently coax you out of your shell, and you'll appreciate their genuine interest in your theories.",
+        "challenges": "They LOVE people time, you NEED alone time - this is the eternal struggle. They might think you're being cold when you need space, and you might find their constant social calendar exhausting. Be honest about your social battery, and they need to not take your introversion personally."
       },
       "INFJ": {
-        "score": 85,
-        "why": "Deep intellectual and philosophical connection. Both enjoy exploring abstract ideas and theories.",
-        "challenges": "Both may struggle with practical daily matters. Need to ground theoretical discussions in action."
+        "why": "Deep, philosophical conversations that last for hours? That's your love language. You both live in the world of ideas and abstract concepts, and there's something beautiful about being understood at that level. Neither of you does small talk, and that's perfectly fine when you're together.",
+        "challenges": "You're both so busy theorizing about life that sometimes actual life gets neglected. Who's going to remember to buy groceries or pay bills? Also, you both can be passive about conflict - don't let resentments build. Someone needs to be the one to bring up the uncomfortable stuff."
       }
     }
   },
   "ENTJ": {
-    "best_matches": ["INTP", "INFP", "ENFP"],
+    "best_matches": [
+      "INTP",
+      "INFP",
+      "ENFP"
+    ],
     "compatibility": {
       "INTP": {
-        "score": 92,
-        "why": "INTP's analytical skills complement ENTJ's leadership. Both respect competence and intellectual capability.",
-        "challenges": "ENTJ may be too controlling for INTP's need for autonomy. Communication about decision-making is key."
+        "why": "You respect competence above all else, and INTPs have that in spades. They'll analyze your plans from every angle and catch flaws before they become problems. You bring the execution and drive, they bring the innovation and deep thinking. It's a power couple dynamic where you both actually contribute something valuable.",
+        "challenges": "Your 'take charge' energy can feel suffocating to their 'I need autonomy' vibe. You might see their reflection time as procrastination, they might see your decisiveness as impulsive. Give them space to think, and they need to understand that decisions sometimes need to happen NOW, not after three more days of analysis."
       },
       "INFP": {
-        "score": 88,
-        "why": "INFP softens ENTJ's intensity while ENTJ helps INFP take action on their ideals. Strong mutual growth potential.",
-        "challenges": "Very different decision-making styles. ENTJ must respect INFP's values-based approach."
+        "why": "They soften your sharp edges in the best way. INFPs help you remember that people's feelings matter and that efficiency isn't everything. You help them actually DO something with their beautiful ideals instead of just dreaming about them. There's real growth potential here - they make you more human, you make them more effective.",
+        "challenges": "You make decisions with your head, they make decisions with their heart - and you might accidentally crush their feelings with your blunt honesty. Your 'just get over it' approach won't work with them. Learn to ask 'how do you feel about this?' and actually listen. They need to toughen up a bit, but you need to soften a lot."
       },
       "ENFP": {
-        "score": 86,
-        "why": "ENFP brings creativity and optimism to ENTJ's plans. Both are energetic and goal-oriented.",
-        "challenges": "ENTJ's directness may hurt ENFP's feelings. Need to balance efficiency with emotional consideration."
+        "why": "ENFPs match your energy and ambition but add creativity and optimism to your plans. They see possibilities you might miss, and you help them focus their scattered brilliance. Together, you can dream big AND make it happen. Their enthusiasm is genuinely refreshing when you're used to people not keeping up with you.",
+        "challenges": "Your direct communication style can really hurt their feelings, even when you think you're 'just being honest.' You might get frustrated with their tendency to start ten projects and finish two. They need you to be gentler, you need them to be more consistent. Meeting in the middle means you soften your delivery and they follow through more."
       }
     }
   },
   "ENTP": {
-    "best_matches": ["INTJ", "INFJ", "ENTJ"],
+    "best_matches": [
+      "INTJ",
+      "INFJ",
+      "ENTJ"
+    ],
     "compatibility": {
       "INTJ": {
-        "score": 90,
-        "why": "Intellectual powerhouse combination. Both enjoy debating ideas and strategic planning.",
-        "challenges": "Both can be argumentative. Need to know when to stop debating and start connecting emotionally."
+        "why": "Finally, someone who can keep up with your mental gymnastics! INTJs will debate with you for hours and actually enjoy it. You both love playing devil's advocate and exploring ideas from every angle. They give your innovative ideas structure, you keep their plans from getting too rigid. It's an intellectual playground.",
+        "challenges": "You both think winning the argument is more important than maintaining harmony, which can turn every discussion into a competition. Remember - your partner isn't your debate opponent. Sometimes you need to stop proving points and start connecting emotionally. Also, both of you need to learn when to drop it."
       },
       "INFJ": {
-        "score": 89,
-        "why": "INFJ provides depth and insight while ENTP brings energy and innovation. Complementary cognitive functions.",
-        "challenges": "ENTP's constant change may stress INFJ's need for closure. Balance spontaneity with stability."
+        "why": "INFJs appreciate your innovative thinking and bring depth and insight you didn't even know you needed. They can handle your constant idea generation without getting overwhelmed, and they'll help you see the human side of your brilliant schemes. Your energy excites them, their wisdom grounds you.",
+        "challenges": "Your constant need for change and new ideas can stress out their need for closure and stability. You might see them as too serious, they might see you as too chaotic. Also, your debate-everything approach can feel attacking to them. Learn to recognize when they need peace, not another discussion."
       },
       "ENTJ": {
-        "score": 85,
-        "why": "Both are ambitious and enjoy strategic thinking. High-energy dynamic with mutual respect.",
-        "challenges": "Power struggles possible. Need to respect each other's autonomy and decision-making."
+        "why": "Both ambitious, both strategic, both high-energy - you GET each other. You can brainstorm together without all the 'but what about feelings' stuff, and you both respect competence and intelligence. Together, you're an unstoppable force of ideas and execution.",
+        "challenges": "Two strong-willed people means power struggles are inevitable. You both want control, you both think your way is best, and neither of you likes backing down. The relationship needs space for both of you to lead. Respect their decisions, expect them to respect yours, and pick your battles wisely."
       }
     }
   },
   "INFJ": {
-    "best_matches": ["ENFP", "ENTP", "INTJ"],
+    "best_matches": [
+      "ENFP",
+      "ENTP",
+      "INTJ"
+    ],
     "compatibility": {
       "ENFP": {
-        "score": 94,
-        "why": "Natural golden pair. ENFP's warmth and authenticity matches INFJ's depth. Both value meaningful connection and personal growth.",
-        "challenges": "ENFP's scattered energy may frustrate INFJ's need for closure. Communication about planning is important."
+        "why": "This is the golden pair everyone talks about for a reason. ENFPs see the real you behind your walls and love what they find. They bring lightness and joy to your serious world, and you give their scattered energy depth and meaning. You both value authenticity above all else, and the connection you build is genuinely special. They make you laugh, you make them think.",
+        "challenges": "Their 'let's figure it out as we go' approach can seriously stress out your need to plan and have closure. You might feel like you're always the one organizing everything while they're off chasing new ideas. They need to follow through more, you need to loosen up a bit. Communicate about what 'flexibility' means to both of you."
       },
       "ENTP": {
-        "score": 89,
-        "why": "Intellectual and creative synergy. ENTP challenges INFJ's perspectives while respecting their depth.",
-        "challenges": "ENTP's debating style may feel insensitive to INFJ. Balance logic with emotional awareness."
+        "why": "The intellectual and creative chemistry here is off the charts. ENTPs challenge your perspectives in ways that help you grow, and they actually respect your depth and insight. You help them see the bigger picture and the human impact of their ideas. Together, you can solve problems from angles no one else even considered.",
+        "challenges": "Their debate-everything style can feel insensitive and exhausting when you just want to be heard and understood. You might take their arguments personally when they're just 'exploring ideas.' Set boundaries about when debate is fun and when you need emotional support instead. They need to read the room better."
       },
       "INTJ": {
-        "score": 88,
-        "why": "Deep mutual understanding through shared intuition. Both value independence and meaningful conversation.",
-        "challenges": "Both can be private and withdrawn. Need to actively share feelings and stay connected."
+        "why": "You understand each other's inner worlds in a way that feels almost psychic. Both intuitive and future-focused, you can have incredibly meaningful conversations without saying much at all. You respect each other's independence and deep thinking, and you share a vision for something bigger than yourselves.",
+        "challenges": "You're both private, introspective, and not great at opening up - which means you can end up living parallel lives instead of truly connected ones. Neither of you wants to be the vulnerable one first. Make a pact to share feelings regularly, even when it feels awkward. Your silence isn't mysterious, it's just confusing."
       }
     }
   },
   "INFP": {
-    "best_matches": ["ENFJ", "ENTJ", "INFJ"],
+    "best_matches": [
+      "ENFJ",
+      "ENTJ",
+      "INFJ"
+    ],
     "compatibility": {
       "ENFJ": {
-        "score": 93,
-        "why": "Natural golden pair. ENFJ's warmth and structure helps INFP actualize their ideals. Deep emotional understanding.",
-        "challenges": "ENFJ may try to 'fix' INFP who just needs understanding. Respect each other's processing styles."
+        "why": "ENFJs see your potential and genuinely want to help you shine. They bring structure and encouragement to your idealistic dreams without crushing your spirit. You feel truly understood and supported, and they love how deeply you care about things. Together, you create something meaningful and help each other grow into your best selves.",
+        "challenges": "ENFJs can be a bit intense with their desire to 'help' you, which sometimes feels like fixing what isn't broken. You need space to figure things out your way, not their efficient way. Tell them when you need understanding, not solutions. They need to remember that your process is valid even if it's different from theirs."
       },
       "ENTJ": {
-        "score": 88,
-        "why": "ENTJ helps INFP take action while INFP softens ENTJ's intensity. Growth-oriented dynamic.",
-        "challenges": "Very different decision-making approaches. ENTJ must value INFP's feelings-based decisions."
+        "why": "You soften their rough edges, they help you take action on your ideals. ENTJs respect your values even when they don't fully understand them, and you help them see the human side of their ambitious plans. This relationship pushes both of you to grow in unexpected ways - they become more empathetic, you become more effective.",
+        "challenges": "Your decision-making styles are completely opposite - they lead with logic, you lead with values and feelings. They might call you too sensitive, you might call them too cold. They need to understand that your feelings-based decisions aren't less valid, and you need to develop a thicker skin without losing your authentic self."
       },
       "INFJ": {
-        "score": 85,
-        "why": "Deep emotional and idealistic connection. Both value authenticity and meaningful relationships.",
-        "challenges": "Both may avoid conflict. Need to address issues directly rather than withdrawing."
+        "why": "The depth of understanding you share is rare. You're both idealistic, value authenticity, and care deeply about meaningful connections. Neither of you does superficial, and you can explore emotional and philosophical depths together that others might find too intense. It's a safe space for both of you to be fully yourselves.",
+        "challenges": "You both avoid conflict like it's contagious, which means issues get swept under the rug until someone explodes. Neither of you wants to rock the boat, so problems fester. You need to actively work on addressing issues early and directly, even when it's uncomfortable. Conflict isn't the enemy - avoidance is."
       }
     }
   },
   "ENFP": {
-    "best_matches": ["INFJ", "INTJ", "ENFJ"],
+    "best_matches": [
+      "INFJ",
+      "INTJ",
+      "ENFJ"
+    ],
     "compatibility": {
       "INFJ": {
-        "score": 94,
-        "why": "Natural golden pair. INFJ provides depth and insight while ENFP brings enthusiasm and warmth. Authentic connection.",
-        "challenges": "ENFP's scattered energy may stress INFJ. Balance spontaneity with follow-through."
+        "why": "The chemistry is instant and intense. INFJs see through your bubbly exterior to the depth underneath and love all of it. You bring joy and spontaneity to their serious world, they bring meaning and depth to your scattered energy. You both value authenticity and growth, and together you create something genuinely special. They ground you, you lift them up.",
+        "challenges": "Your 'figure it out later' approach stresses out their need for plans and closure. You might feel confined by their structure, they might feel anxious about your spontaneity. The key is compromise - give them enough notice about changes, and they need to embrace some spontaneity. Also, actually finish some of those projects you start."
       },
       "INTJ": {
-        "score": 95,
-        "why": "Perfect balance of warmth and logic. ENFP softens INTJ while INTJ grounds ENFP. Mutual growth catalyst.",
-        "challenges": "Different social needs and planning styles. Compromise on structure and social time."
+        "why": "You're the warmth to their ice, the spontaneity to their planning, the chaos to their order - and somehow it works beautifully. You help them lighten up and experience life beyond their master plans. They give your million ideas structure and help you follow through. You both think about the future and big possibilities, just from different angles.",
+        "challenges": "Your social butterfly nature might exhaust their introverted battery, and their need to plan everything might make you feel trapped. You want last-minute adventures, they want advance notice. You want to process feelings by talking, they want space to think. Compromise means scheduled quality time AND spontaneous moments."
       },
       "ENFJ": {
-        "score": 87,
-        "why": "Both are warm, people-oriented, and idealistic. Natural understanding and emotional connection.",
-        "challenges": "Both may over-commit to others. Need boundaries and focus on the relationship."
+        "why": "Both warm, enthusiastic, and people-oriented, you just GET each other on a fundamental level. The emotional connection flows naturally, and you both dream about making the world better. You share similar values, tons of energy, and a genuine care for others. Conversations are easy, laughter is constant, and support is mutual.",
+        "challenges": "You both tend to overcommit to helping everyone, which means your relationship might get neglected. You're both so busy saving the world that you forget to nurture what you have. Also, you both avoid difficult conversations and might enable each other's tendency to ignore problems. Schedule actual date time and protect it fiercely."
       }
     }
   },
   "ENFJ": {
-    "best_matches": ["INFP", "ISFP", "INTP"],
+    "best_matches": [
+      "INFP",
+      "ISFP",
+      "INTP"
+    ],
     "compatibility": {
       "INFP": {
-        "score": 93,
-        "why": "Natural golden pair. ENFJ's leadership helps INFP manifest their ideals. Deep emotional resonance.",
-        "challenges": "ENFJ may be too directive. Need to let INFP maintain autonomy and decision-making."
+        "why": "You see their potential and they feel truly understood by you. Your natural leadership helps them turn their beautiful ideals into reality, and they remind you to stay authentic and true to your values. The emotional depth you share is profound, and you both genuinely care about making each other better. You champion them, they keep you grounded.",
+        "challenges": "Your take-charge energy can feel overwhelming to their need for autonomy. You want to help and fix things, they just want to be understood. They might feel like a project rather than a partner. Back off the advice unless they ask for it, and let them make decisions their way, even if it's not the most efficient path."
       },
       "ISFP": {
-        "score": 89,
-        "why": "ENFJ provides structure and encouragement for ISFP's creativity. ISFP helps ENFJ stay present and authentic.",
-        "challenges": "Different energy levels and social needs. Balance group activities with quiet time."
+        "why": "You bring structure and encouragement to their creative spirit, and they help you stay present and authentic instead of always performing. ISFPs ground you in the moment and remind you that life is happening now, not just in the future you're planning. They appreciate your warmth without needing you to fix them.",
+        "challenges": "Your high-energy, people-focused lifestyle might be too much for their quiet, creative nature. You thrive in groups, they thrive in calm. You want to plan everything, they want to go with the flow. Balance means protecting their quiet time while they occasionally join your social world. Don't mistake their quiet for lack of caring."
       },
       "INTP": {
-        "score": 87,
-        "why": "ENFJ draws out INTP's social side while INTP provides logical perspective. Complementary strengths.",
-        "challenges": "Very different decision-making styles. ENFJ must respect INTP's need for logical analysis."
+        "why": "You draw out their social side without overwhelming them, and they give you the logical perspective you sometimes lack. INTPs appreciate your genuine warmth and emotional intelligence, and you respect their brilliant mind. Together, you balance heart and head, emotion and logic, people and ideas.",
+        "challenges": "Your decision-making styles are completely different - you consider people's feelings first, they want pure logic. You might see them as cold, they might see you as too emotional. Also, your need for verbal affirmation might not get met by their action-over-words approach. Understand that they show love differently than you do."
       }
     }
   },
   "ISTJ": {
-    "best_matches": ["ESFP", "ESTP", "ISFJ"],
+    "best_matches": [
+      "ESFP",
+      "ESTP",
+      "ISFJ"
+    ],
     "compatibility": {
       "ESFP": {
-        "score": 91,
-        "why": "Natural golden pair. ESFP brings spontaneity and fun while ISTJ provides stability and reliability.",
-        "challenges": "Different approaches to planning and structure. Compromise on spontaneity vs. routine."
+        "why": "You're the steady foundation, they're the spontaneous joy - and it works! ESFPs bring fun and lightness into your structured world, making sure you don't forget to actually enjoy life. You give them stability and reliability they secretly appreciate. They make you laugh, you make them feel secure. It's a great balance when you both appreciate what the other brings.",
+        "challenges": "Your need for planning and routine can feel restricting to their spontaneous nature. They want to decide things last minute, you want them decided last week. You might call them irresponsible, they might call you rigid. Meet in the middle - schedule some spontaneous time (yes, really) and they need to respect some of your structure."
       },
       "ESTP": {
-        "score": 88,
-        "why": "ESTP's action-orientation complements ISTJ's planning. Both value practical results.",
-        "challenges": "ESTP's risk-taking may stress ISTJ. Balance adventure with security."
+        "why": "Both practical and results-oriented, you appreciate their action-focused approach to life. ESTPs are doers, not just dreamers, which you respect. Your planning balances their spontaneity, and they help you loosen up and take some risks. Together, you can accomplish real, tangible things without getting lost in theory.",
+        "challenges": "Their risk-taking and 'act first, think later' approach can seriously stress you out. You want to plan and prepare, they want to jump in and figure it out. You might see them as reckless, they might see you as boring. They need to give you some advance notice, and you need to occasionally embrace uncertainty without a safety net."
       },
       "ISFJ": {
-        "score": 85,
-        "why": "Shared values of tradition, loyalty, and responsibility. Stable, supportive partnership.",
-        "challenges": "Both may resist change. Need to encourage each other to try new experiences."
+        "why": "You share core values of duty, loyalty, and tradition. Both of you are reliable, responsible, and committed to doing the right thing. There's a comfortable stability here where you both know what to expect and appreciate each other's consistency. You build something solid and lasting together.",
+        "challenges": "You're both so comfortable with routine that you might get stuck in a rut and resist any change, even positive change. Neither of you is big on emotional expression, so feelings might go unsaid. Make a conscious effort to try new things together and actually talk about emotions, even when it feels awkward."
       }
     }
   },
   "ISFJ": {
-    "best_matches": ["ESFP", "ESTP", "ISTJ"],
+    "best_matches": [
+      "ESFP",
+      "ESTP",
+      "ISTJ"
+    ],
     "compatibility": {
       "ESFP": {
-        "score": 92,
-        "why": "Natural golden pair. ESFP brings warmth and adventure while ISFJ provides care and stability.",
-        "challenges": "Different social energy levels. Balance ESFP's social needs with ISFJ's quieter preferences."
+        "why": "ESFPs light up your world with warmth and adventure, encouraging you to step outside your comfort zone. You provide the care and stability that helps them thrive. Both of you are warm-hearted and focused on helping others, just in different ways. They make sure you have fun, you make sure they're taken care of.",
+        "challenges": "Their high-energy social life can be overwhelming when you need quiet recharge time. You might feel dragged to too many parties, they might feel held back from social opportunities. Compromise on social activities, and make sure they understand your need for calm isn't about being boring - it's about being you."
       },
       "ESTP": {
-        "score": 89,
-        "why": "ESTP's boldness encourages ISFJ to try new things. ISFJ provides emotional support and grounding.",
-        "challenges": "ESTP may seem too impulsive to ISFJ. Communicate about risk-taking and planning."
+        "why": "ESTPs' bold, confident energy encourages you to try new things and take chances you wouldn't normally take. You provide emotional support and grounding when their adventures get chaotic. They appreciate your caring nature even if they don't always show it, and you secretly enjoy the excitement they bring to your life.",
+        "challenges": "They can seem too impulsive and risky to your careful, security-focused nature. You want to think things through, they want to just do it. You might try to protect them from consequences, they might push you into discomfort. They need to be more thoughtful, you need to be more adventurous. Meet somewhere in the middle."
       },
       "ISTJ": {
-        "score": 85,
-        "why": "Shared appreciation for tradition, duty, and stability. Reliable and committed partnership.",
-        "challenges": "Both may avoid emotional expression. Work on sharing feelings openly."
+        "why": "You're both traditional, loyal, and committed to your responsibilities. There's a comfortable understanding of duty and routine that doesn't need to be explained. You both show love through actions rather than words, and you build a stable, reliable partnership based on mutual respect and shared values.",
+        "challenges": "Neither of you is great at expressing feelings verbally, which can lead to emotional disconnect even when you both care deeply. You're both so focused on doing the right thing that you might forget to nurture the relationship emotionally. Schedule check-ins about feelings and make romance intentional, not just assumed."
       }
     }
   },
   "ESTJ": {
-    "best_matches": ["ISFP", "ISTP", "ESFJ"],
+    "best_matches": [
+      "ISFP",
+      "ISTP",
+      "ESFJ"
+    ],
     "compatibility": {
       "ISFP": {
-        "score": 90,
-        "why": "Natural golden pair. ISFP's adaptability balances ESTJ's structure. ESTJ provides stability for ISFP's creativity.",
-        "challenges": "Very different decision-making styles. ESTJ must value ISFP's feelings-based approach."
+        "why": "You provide structure that helps their creativity flourish, and they soften your intensity with their gentle adaptability. ISFPs help you remember that life isn't all about efficiency and rules - sometimes beauty and feelings matter too. You make them feel secure, they make you feel human. It's a growth-oriented dynamic.",
+        "challenges": "Your direct, no-nonsense communication can really hurt their sensitive feelings. You might see their emotional decision-making as impractical, they might see your logic as cold. You need to learn that not everything needs to be optimized, and they need to understand that your bluntness isn't personal - but you both need to meet in the middle."
       },
       "ISTP": {
-        "score": 87,
-        "why": "Both are practical and action-oriented. ISTP's technical skills complement ESTJ's organizational abilities.",
-        "challenges": "ESTJ may be too controlling for ISTP's need for autonomy. Respect independence."
+        "why": "Both practical and action-oriented, you appreciate their technical skills and problem-solving abilities. ISTPs are competent and capable, which you respect. Your organizational skills complement their hands-on expertise. Together, you get things done efficiently and effectively without a lot of unnecessary drama.",
+        "challenges": "Your need to be in charge can clash with their need for autonomy and independence. You want to lead, they want to be left alone to do their thing. You might micromanage, they might withdraw. Give them space to work independently and trust their competence - they'll respect you more for it."
       },
       "ESFJ": {
-        "score": 84,
-        "why": "Shared values of duty, tradition, and community. Both are organized and responsible.",
-        "challenges": "Both can be stubborn. Need to practice flexibility and compromise."
+        "why": "You share values of duty, tradition, and community responsibility. Both organized and structured, you can run a household or team together like a well-oiled machine. You appreciate each other's reliability and commitment to doing things properly. There's mutual respect for rules and social obligations.",
+        "challenges": "You're both pretty stubborn and set in your ways, which can lead to major clashes when you disagree. Neither of you likes backing down, and both of you think your way is the right way. Also, you both prioritize responsibilities over emotional connection. Make time for actual relationship nurturing, not just task completion."
       }
     }
   },
   "ESFJ": {
-    "best_matches": ["ISFP", "ISTP", "ESTJ"],
+    "best_matches": [
+      "ISFP",
+      "ISTP",
+      "ESTJ"
+    ],
     "compatibility": {
       "ISFP": {
-        "score": 91,
-        "why": "Natural golden pair. ESFJ's warmth and structure support ISFP's creative pursuits. Caring dynamic.",
-        "challenges": "ESFJ may try to organize ISFP too much. Respect ISFP's need for spontaneity."
+        "why": "Your warmth and structure create a safe space for their creativity to thrive. You encourage their artistic pursuits while helping them stay grounded, and they remind you to appreciate beauty and spontaneity. Both of you care deeply about others, just in different ways. You nurture them, they inspire you.",
+        "challenges": "Your tendency to organize and structure everything might feel controlling to their free-spirited nature. You want plans, they want flexibility. You might try to 'fix' their spontaneity when it doesn't need fixing. Let them have their creative chaos, and they need to appreciate that your planning comes from care, not control."
       },
       "ISTP": {
-        "score": 88,
-        "why": "ESFJ brings social warmth while ISTP provides practical problem-solving. Complementary skills.",
-        "challenges": "Different social needs. Balance ESFJ's social activities with ISTP's need for alone time."
+        "why": "You bring social warmth and emotional intelligence to their practical, logical world. They provide calm, capable problem-solving when life gets chaotic. Your people skills complement their technical skills. They appreciate that you don't expect them to be emotionally expressive, and you appreciate that they're reliable and competent.",
+        "challenges": "Your social calendar and need for togetherness might overwhelm their introverted, independence-focused nature. You want quality time talking, they want quality time doing activities in comfortable silence. Balance your social life with their alone time needs, and understand that their quietness isn't rejection - it's recharging."
       },
       "ESTJ": {
-        "score": 84,
-        "why": "Both value tradition, responsibility, and organization. Efficient and stable partnership.",
-        "challenges": "Both may prioritize duty over emotional connection. Make time for relationship nurturing."
+        "why": "Both responsible, organized, and committed to duty, you make an efficient power couple. You can tackle tasks and responsibilities together with ease. You both value tradition and doing things the 'right' way, and you appreciate each other's reliability and structure. You're a team that gets things done.",
+        "challenges": "You both can be stubborn and controlling, leading to conflicts over who's in charge and whose way is correct. Also, you're both so focused on responsibilities and duties that emotional intimacy might get neglected. Remember - your relationship needs nurturing too, not just task management. Schedule actual fun together."
       }
     }
   },
   "ISTP": {
-    "best_matches": ["ESFJ", "ESTJ", "ESTP"],
+    "best_matches": [
+      "ESFJ",
+      "ESTJ",
+      "ESTP"
+    ],
     "compatibility": {
       "ESFJ": {
-        "score": 88,
-        "why": "Natural golden pair. ESFJ's warmth draws out ISTP's social side. ISTP provides practical solutions.",
-        "challenges": "Different emotional expression styles. ESFJ needs more verbal affirmation than ISTP naturally gives."
+        "why": "ESFJs' warmth gradually melts your reserved exterior, and they actually appreciate your quiet, capable presence. You provide practical solutions to problems, they provide emotional support and social connection. They help you navigate the social world without demanding you become someone you're not. You ground them, they warm you up.",
+        "challenges": "They need more verbal affirmation and emotional expression than comes naturally to you. You show love through actions, they need to hear the words too. Their social energy might drain your battery quickly. Be honest about your social limits, and make an effort to verbalize your feelings even when it feels awkward."
       },
       "ESTJ": {
-        "score": 87,
-        "why": "Both are pragmatic and action-oriented. Efficient partnership with mutual respect for skills.",
-        "challenges": "Both may avoid emotional discussions. Work on expressing feelings and needs."
+        "why": "Both pragmatic and focused on real results, you respect each other's competence and no-nonsense approach. ESTJs organize while you execute - it's a practical partnership. Neither of you needs constant emotional validation, and you appreciate getting things done efficiently without unnecessary drama.",
+        "challenges": "You both tend to avoid emotional discussions and might go weeks without really checking in about feelings. Also, their need to be in charge can clash with your need for autonomy. They need to give you space, and you both need to make time for actual emotional connection beyond just working together."
       },
       "ESTP": {
-        "score": 85,
-        "why": "Shared love of action and adventure. Both are adaptable and present-focused.",
-        "challenges": "Both may avoid long-term planning. Balance spontaneity with future considerations."
+        "why": "Adventure buddies for life! You both love action, hands-on experiences, and living in the present moment. Neither of you overthinks things - you just do. The relationship is easy, fun, and free of unnecessary drama. You get each other's need for independence and excitement.",
+        "challenges": "You're both so focused on the present that you might avoid planning for the future entirely. Who's going to think about bills, savings, or where this relationship is heading? Someone needs to occasionally look beyond next weekend. Also, you both avoid heavy emotional talks - make sure you're connecting on deeper levels too."
       }
     }
   },
   "ISFP": {
-    "best_matches": ["ENFJ", "ESFJ", "ESTJ"],
+    "best_matches": [
+      "ENFJ",
+      "ESFJ",
+      "ESTJ"
+    ],
     "compatibility": {
       "ENFJ": {
-        "score": 89,
-        "why": "Natural golden pair. ENFJ encourages ISFP's self-expression while ISFP helps ENFJ stay authentic and present.",
-        "challenges": "ENFJ may be too directive. ISFP needs freedom to explore and make own decisions."
+        "why": "ENFJs see your authentic creative spirit and encourage it without trying to change who you are. They help you express yourself and pursue your passions while you help them stay grounded and present. You remind them to be authentic rather than performing, and they give you gentle structure that helps rather than restricts.",
+        "challenges": "Their enthusiasm and direction can feel overwhelming when you just need space to create and explore. You need freedom to make your own choices, they want to help guide you. Tell them when you need support versus when you need space. They need to trust your process even when it's not efficient."
       },
       "ESFJ": {
-        "score": 91,
-        "why": "ESFJ provides warmth and structure that helps ISFP thrive. ISFP brings spontaneity and creativity.",
-        "challenges": "Different planning styles. Balance structure with flexibility."
+        "why": "ESFJs provide warmth and structure that creates a safe space for your creativity. They appreciate your gentle nature and artistic sensibility, and you bring spontaneity and beauty to their organized world. Both of you care deeply about others and creating harmony. They nurture you, you inspire them.",
+        "challenges": "Their need to plan and organize everything might feel restrictive to your spontaneous nature. You go with the flow, they need structure. You might feel controlled, they might feel anxious about your lack of planning. Balance means giving them some advance notice while they embrace some spontaneity in return."
       },
       "ESTJ": {
-        "score": 90,
-        "why": "ESTJ's organization supports ISFP's creative pursuits. ISFP softens ESTJ's intensity.",
-        "challenges": "Very different communication styles. ESTJ must respect ISFP's feelings-based decisions."
+        "why": "Your gentle adaptability balances their intense, take-charge energy. You soften their rough edges, they provide the structure and security for your creative pursuits. They help you follow through on projects, you help them see the beauty and feelings they sometimes miss. It's an unexpected but effective balance.",
+        "challenges": "Their direct, blunt communication style can really hurt your feelings, even when they don't mean it harshly. They make decisions with pure logic, you make decisions based on values and feelings. They need to be gentler, you need to be clearer about your needs. Both of you need to respect different decision-making approaches."
       }
     }
   },
   "ESTP": {
-    "best_matches": ["ISFJ", "ISTJ", "ESFP"],
+    "best_matches": [
+      "ISFJ",
+      "ISTJ",
+      "ESFP"
+    ],
     "compatibility": {
       "ISFJ": {
-        "score": 89,
-        "why": "Natural golden pair. ISFJ provides emotional support and stability while ESTP brings excitement and energy.",
-        "challenges": "ESTP's risk-taking may stress ISFJ. Communicate about comfort zones and boundaries."
+        "why": "You bring excitement and adventure to their stable world, and they provide the emotional support and grounding you didn't know you needed. ISFJs create a safe home base for you to return to after your adventures. They appreciate your confidence even when they won't join every adventure, and you appreciate their unwavering support.",
+        "challenges": "Your impulsive, risk-taking nature can genuinely stress them out. They need security and preparation, you need action and spontaneity. You might push them too far out of their comfort zone, they might hold you back from opportunities. Communicate about boundaries and comfort zones - respect theirs, and help them expand gradually."
       },
       "ISTJ": {
-        "score": 88,
-        "why": "Both are practical and results-oriented. ISTJ's planning balances ESTP's spontaneity.",
-        "challenges": "Different approaches to structure. Compromise on planning ahead vs. going with the flow."
+        "why": "ISTJs provide the planning and structure that balances your spontaneous energy. They're practical and reliable, which you secretly appreciate even when you joke about their routines. Both focused on real, tangible results, you make things happen together - they plan, you execute. It's effective teamwork.",
+        "challenges": "Your 'leap before you look' approach is basically ISTJ's nightmare. They want to plan everything three steps ahead, you want to figure it out as you go. You might see them as boring, they might see you as reckless. Compromise means giving them some advance warning while they embrace occasional spontaneity."
       },
       "ESFP": {
-        "score": 86,
-        "why": "High-energy, fun-loving dynamic. Both enjoy action and living in the moment.",
-        "challenges": "Both may avoid serious planning. Need to address practical responsibilities together."
+        "why": "Maximum energy and fun! You're both action-oriented, spontaneous, and love living in the moment. Life together is an adventure full of new experiences and excitement. You get each other's need for variety and stimulation. No boring weekends here - you're both always up for something new.",
+        "challenges": "You're both so focused on having fun RIGHT NOW that practical responsibilities might get ignored. Who's planning for the future? Who's managing the boring adult stuff? Also, you both avoid serious emotional conversations. Make sure you're building something real beneath all the fun and excitement."
       }
     }
   },
   "ESFP": {
-    "best_matches": ["ISTJ", "ISFJ", "ESTP"],
+    "best_matches": [
+      "ISTJ",
+      "ISFJ",
+      "ESTP"
+    ],
     "compatibility": {
       "ISTJ": {
-        "score": 91,
-        "why": "Natural golden pair. ISTJ provides stability and structure while ESFP brings warmth and spontaneity.",
-        "challenges": "Different social needs and planning styles. Balance routine with adventure."
+        "why": "You're the sunshine to their stability. ISTJs provide the structure and reliability that keeps your spontaneous life grounded, and you bring warmth and fun that prevents their life from being all work. They make sure bills get paid, you make sure life gets enjoyed. It's a practical magic when you appreciate what each brings.",
+        "challenges": "Your spontaneous, social nature can overwhelm their need for routine and quiet. You want to go out, they want to stay in. You decide things on the fly, they need advance notice. You might call them boring, they might call you exhausting. Balance means protecting their downtime while they occasionally join your adventures."
       },
       "ISFJ": {
-        "score": 92,
-        "why": "ISFJ's caring nature pairs well with ESFP's warmth. Both value helping others and creating harmony.",
-        "challenges": "ESFP may overwhelm ISFJ socially. Respect each other's energy levels."
+        "why": "Both warm-hearted and caring, you connect over your shared desire to help others and create harmony. ISFJs provide stability and emotional support while you bring energy and optimism to their careful world. You make them smile, they make you feel safe. Together, you create a warm, supportive environment.",
+        "challenges": "Your high social energy can drain their introverted battery quickly. They need more quiet time than you do, and your packed social calendar might feel overwhelming. You might feel restricted by their need for routine, they might feel exhausted by your pace. Respect each other's different energy levels and needs."
       },
       "ESTP": {
-        "score": 86,
-        "why": "Both are energetic, spontaneous, and enjoy living in the moment. Fun and adventurous partnership.",
-        "challenges": "Both may struggle with long-term planning and emotional depth. Work on these together."
+        "why": "Pure fun and adventure! You're both energetic, spontaneous, and focused on enjoying the present. Life is an exciting adventure, and you're both always ready for whatever comes next. You understand each other's need for variety and excitement without judgment. Zero boring moments here.",
+        "challenges": "You're both so caught up in having fun that serious planning and emotional depth might get neglected. Someone needs to think about the future occasionally. Also, you both avoid difficult conversations and might sweep issues under the rug. Make sure you're building real depth and stability, not just surface-level fun."
       }
     }
   }

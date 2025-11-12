@@ -6,12 +6,12 @@ import Signup from "./components/auth/Signup";
 import Home from "./pages/Home";
 import QuestionnaireTest from "./pages/questionnaire/Test";
 import QuestionnaireResult from "./pages/questionnaire/Result";
+import QuestionnaireHistory from "./pages/questionnaire/History";
 import TextAnalyze from "./pages/text/Analyze";
 import TextResult from "./pages/text/Result";
+import TextHistory from "./pages/text/History";
 import TwitterAnalyze from "./pages/twitter/Analyze";
 import TwitterResult from "./pages/twitter/Result";
-import QuestionnaireHistory from "./pages/questionnaire/History";
-import TextHistory from "./pages/text/History";
 import TwitterHistory from "./pages/twitter/History";
 import ToastProvider from './components/shared/ToastProvider';
 

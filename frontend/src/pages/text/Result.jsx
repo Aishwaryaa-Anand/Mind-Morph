@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
-import { textService } from '../../services/textService';
-import Navbar from '../../components/shared/Navbar';
+import { useState, useEffect } from "react";
+import { useParams, useNavigate } from "react-router-dom";
+import { textService } from "../../services/textService";
+import Navbar from "../../components/shared/Navbar";
 import { generateQuestionnairePDF } from "../../utils/pdfGenerator";
-import Footer from '../../components/shared/Footer';
+import Footer from "../../components/shared/Footer";
 
 export default function TextResult() {
   const { id } = useParams();
@@ -22,7 +22,7 @@ export default function TextResult() {
       setResult(data);
       setLoading(false);
     } catch {
-      setError('Failed to load results');
+      setError("Failed to load results");
       setLoading(false);
     }
   };
@@ -44,7 +44,7 @@ export default function TextResult() {
         <div className="glass-card p-8 max-w-md text-center">
           <p className="text-white text-xl mb-4">Failed to load results</p>
           <button
-            onClick={() => navigate('/')}
+            onClick={() => navigate("/")}
             className="btn-gradient px-6 py-3"
           >
             Back to Home
@@ -56,19 +56,19 @@ export default function TextResult() {
 
   const { prediction, insights } = result;
   const mbti = prediction.mbtiType;
-  const confidence = prediction.confidence;
+  // const confidence = prediction.confidence;
   // const keywords = prediction.keywords || [];
 
   // MBTI letter colors
   const letterColors = {
-    I: 'from-blue-500 to-blue-600',
-    E: 'from-red-500 to-red-600',
-    N: 'from-purple-500 to-purple-600',
-    S: 'from-yellow-500 to-yellow-600',
-    T: 'from-green-500 to-green-600',
-    F: 'from-pink-500 to-pink-600',
-    J: 'from-orange-500 to-orange-600',
-    P: 'from-cyan-500 to-cyan-600'
+    I: "from-blue-500 to-blue-600",
+    E: "from-red-500 to-red-600",
+    N: "from-purple-500 to-purple-600",
+    S: "from-yellow-500 to-yellow-600",
+    T: "from-green-500 to-green-600",
+    F: "from-pink-500 to-pink-600",
+    J: "from-orange-500 to-orange-600",
+    P: "from-cyan-500 to-cyan-600",
   };
 
   return (
@@ -92,7 +92,7 @@ export default function TextResult() {
 
           {/* MBTI Letters */}
           <div className="flex justify-center gap-3 mb-6">
-            {mbti.split('').map((letter, idx) => (
+            {mbti.split("").map((letter, idx) => (
               <div
                 key={idx}
                 className={`w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-gradient-to-br ${letterColors[letter]} flex items-center justify-center shadow-xl transform hover:scale-110 transition-transform`}
@@ -116,7 +116,7 @@ export default function TextResult() {
         </div>
 
         {/* Confidence Scores */}
-        <div className="glass-card mb-8">
+        {/* <div className="glass-card mb-8">
           <h3 className="text-2xl font-bold text-white mb-6">
             Confidence Breakdown
           </h3>
@@ -206,7 +206,9 @@ export default function TextResult() {
 
         {/* Career Suggestions */}
         <div className="glass-card mb-8">
-          <h3 className="text-2xl font-bold text-white mb-4">Recommended Careers</h3>
+          <h3 className="text-2xl font-bold text-white mb-4">
+            Recommended Careers
+          </h3>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
             {insights.careers.map((career, idx) => (
               <div
@@ -232,18 +234,25 @@ export default function TextResult() {
                 return (
                   <div
                     key={match}
-                    className="p-4 rounded-lg bg-white/10 border border-white/20"
+                    className="p-4 rounded-lg bg-white/10 border border-white/20 hover:bg-white/15 transition-all duration-300"
                   >
                     <div className="flex items-center justify-between mb-2">
                       <h4 className="text-xl font-bold text-white">{match}</h4>
-                      <span className="px-3 py-1 rounded-full bg-green-500/20 text-green-400 font-semibold">
-                        {compat.score}% Match
-                      </span>
+                      {/* <span className="text-2xl" title="Compatibility Rating">
+                        {compat.rating}
+                      </span> */}
                     </div>
-                    <p className="text-white/90 mb-2">{compat.why}</p>
-                    <p className="text-white/70 text-sm">
-                      <span className="font-semibold">Challenge:</span> {compat.challenges}
+                    <p className="text-white/90 mb-3 leading-relaxed">
+                      {compat.why}
                     </p>
+                    <div className="pt-3 border-t border-white/10">
+                      <p className="text-white/70 text-sm leading-relaxed">
+                        <span className="font-semibold text-yellow-400">
+                          ⚠️ Challenge:
+                        </span>{" "}
+                        {compat.challenges}
+                      </p>
+                    </div>
                   </div>
                 );
               })}
@@ -253,7 +262,9 @@ export default function TextResult() {
 
         {/* Growth Tips */}
         <div className="glass-card mb-8">
-          <h3 className="text-2xl font-bold text-white mb-4">Personal Growth Tips</h3>
+          <h3 className="text-2xl font-bold text-white mb-4">
+            Personal Growth Tips
+          </h3>
           <ul className="space-y-3">
             {insights.growth_tips.map((tip, idx) => (
               <li key={idx} className="flex items-start gap-3">
@@ -284,13 +295,13 @@ export default function TextResult() {
         {/* Actions */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button
-            onClick={() => navigate('/')}
+            onClick={() => navigate("/")}
             className="px-8 py-3 rounded-lg bg-white/10 hover:bg-white/20 text-white font-semibold transition border border-white/30"
           >
             Back to Home
           </button>
           <button
-            onClick={() => navigate('/text/analyze')}
+            onClick={() => navigate("/text/analyze")}
             className="px-8 py-3 rounded-lg bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white font-semibold transition shadow-lg"
           >
             Analyze New Text

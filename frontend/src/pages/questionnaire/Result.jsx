@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { questionnaireService } from "../../services/questionnaireService";
 import Navbar from "../../components/shared/Navbar";
 import { generateQuestionnairePDF } from "../../utils/pdfGenerator";
-import Footer from '../../components/shared/Footer';
+import Footer from "../../components/shared/Footer";
 
 export default function QuestionnaireResult() {
   const { id } = useParams();
@@ -19,9 +19,11 @@ export default function QuestionnaireResult() {
   const loadResult = async () => {
     try {
       const data = await questionnaireService.getResultById(id);
+      console.log("Loaded result:", data); // Debug log
       setResult(data);
       setLoading(false);
-    } catch {
+    } catch (err) {
+      console.error("Error loading result:", err); // Debug log
       setError("Failed to load results");
       setLoading(false);
     }
@@ -54,9 +56,31 @@ export default function QuestionnaireResult() {
     );
   }
 
-  const { prediction, insights } = result;
+  const { prediction, insights } = result || {};
+
+  // Add safety checks for nested data
+  if (!prediction || !insights || !prediction.mbtiType) {
+    console.error("Invalid result structure:", result); // Debug log
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center p-4">
+        <div className="glass-card p-8 max-w-md text-center">
+          <p className="text-white text-xl mb-4">Invalid result data</p>
+          <p className="text-white/70 text-sm mb-4">
+            The result data structure is incomplete or corrupted.
+          </p>
+          <button
+            onClick={() => navigate("/")}
+            className="btn-gradient px-6 py-3"
+          >
+            Back to Home
+          </button>
+        </div>
+      </div>
+    );
+  }
+
   const mbti = prediction.mbtiType;
-  const confidence = prediction.confidence;
+  // const confidence = prediction.confidence;
 
   // MBTI letter colors
   const letterColors = {
@@ -104,18 +128,18 @@ export default function QuestionnaireResult() {
           </div>
 
           <h3 className="text-3xl md:text-4xl font-bold text-white mb-2">
-            {insights.title}
+            {insights?.title || "Unknown Type"}
           </h3>
           <p className="text-xl text-white/90 mb-4">
-            {mbti} - {insights.percentage}
+            {mbti} {insights?.percentage && `- ${insights.percentage}`}
           </p>
           <p className="text-white/80 text-lg max-w-3xl mx-auto leading-relaxed">
-            {insights.description}
+            {insights?.description || "No description available"}
           </p>
         </div>
 
-        {/* Confidence Scores */}
-        <div className="glass-card mb-8">
+        {/* Confidence Scores*/}
+        {/*<div className="glass-card mb-8">
           <h3 className="text-2xl font-bold text-white mb-6">
             Confidence Breakdown
           </h3>
@@ -158,54 +182,58 @@ export default function QuestionnaireResult() {
               ✨ Enhanced with machine learning for improved accuracy
             </p>
           )}
-        </div>
+        </div> */}
 
         {/* Strengths & Weaknesses */}
-        <div className="grid md:grid-cols-2 gap-6 mb-8">
-          <div className="glass-card">
-            <h3 className="text-2xl font-bold text-white mb-4">Strengths</h3>
-            <ul className="space-y-2">
-              {insights.strengths.map((strength, idx) => (
-                <li key={idx} className="flex items-start gap-2 text-white/90">
-                  <span className="text-green-400 mt-1">✓</span>
-                  <span>{strength}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+        {insights?.strengths && insights?.weaknesses && (
+          <div className="grid md:grid-cols-2 gap-6 mb-8">
+            <div className="glass-card">
+              <h3 className="text-2xl font-bold text-white mb-4">Strengths</h3>
+              <ul className="space-y-2">
+                {insights.strengths.map((strength, idx) => (
+                  <li key={idx} className="flex items-start gap-2 text-white/90">
+                    <span className="text-green-400 mt-1">✓</span>
+                    <span>{strength}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
 
-          <div className="glass-card">
-            <h3 className="text-2xl font-bold text-white mb-4">Growth Areas</h3>
-            <ul className="space-y-2">
-              {insights.weaknesses.map((weakness, idx) => (
-                <li key={idx} className="flex items-start gap-2 text-white/90">
-                  <span className="text-yellow-400 mt-1">→</span>
-                  <span>{weakness}</span>
-                </li>
-              ))}
-            </ul>
+            <div className="glass-card">
+              <h3 className="text-2xl font-bold text-white mb-4">Growth Areas</h3>
+              <ul className="space-y-2">
+                {insights.weaknesses.map((weakness, idx) => (
+                  <li key={idx} className="flex items-start gap-2 text-white/90">
+                    <span className="text-yellow-400 mt-1">→</span>
+                    <span>{weakness}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Career Suggestions */}
-        <div className="glass-card mb-8">
-          <h3 className="text-2xl font-bold text-white mb-4">
-            Recommended Careers
-          </h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-            {insights.careers.map((career, idx) => (
-              <div
-                key={idx}
-                className="px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white text-center hover:bg-white/20 transition"
-              >
-                {career}
-              </div>
-            ))}
+        {insights?.careers && insights.careers.length > 0 && (
+          <div className="glass-card mb-8">
+            <h3 className="text-2xl font-bold text-white mb-4">
+              Recommended Careers
+            </h3>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+              {insights.careers.map((career, idx) => (
+                <div
+                  key={idx}
+                  className="px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white text-center hover:bg-white/20 transition"
+                >
+                  {career}
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Compatibility */}
-        {insights.compatibility && (
+        {insights?.compatibility && insights.compatibility.best_matches && (
           <div className="glass-card mb-8">
             <h3 className="text-2xl font-bold text-white mb-4">Best Matches</h3>
             <p className="text-white/80 mb-6">
@@ -214,22 +242,30 @@ export default function QuestionnaireResult() {
             <div className="space-y-4">
               {insights.compatibility.best_matches.map((match) => {
                 const compat = insights.compatibility.compatibility[match];
+                if (!compat) return null;
+                
                 return (
                   <div
                     key={match}
-                    className="p-4 rounded-lg bg-white/10 border border-white/20"
+                    className="p-4 rounded-lg bg-white/10 border border-white/20 hover:bg-white/15 transition-all duration-300"
                   >
                     <div className="flex items-center justify-between mb-2">
                       <h4 className="text-xl font-bold text-white">{match}</h4>
-                      <span className="px-3 py-1 rounded-full bg-green-500/20 text-green-400 font-semibold">
-                        {compat.score}% Match
-                      </span>
+                      {/* <span className="text-2xl" title="Compatibility Rating">
+                        {compat.rating}
+                      </span> */}
                     </div>
-                    <p className="text-white/90 mb-2">{compat.why}</p>
-                    <p className="text-white/70 text-sm">
-                      <span className="font-semibold">Challenge:</span>{" "}
-                      {compat.challenges}
+                    <p className="text-white/90 mb-3 leading-relaxed">
+                      {compat.why}
                     </p>
+                    <div className="pt-3 border-t border-white/10">
+                      <p className="text-white/70 text-sm leading-relaxed">
+                        <span className="font-semibold text-yellow-400">
+                          ⚠️ Challenge:
+                        </span>{" "}
+                        {compat.challenges}
+                      </p>
+                    </div>
                   </div>
                 );
               })}
@@ -238,36 +274,40 @@ export default function QuestionnaireResult() {
         )}
 
         {/* Growth Tips */}
-        <div className="glass-card mb-8">
-          <h3 className="text-2xl font-bold text-white mb-4">
-            Personal Growth Tips
-          </h3>
-          <ul className="space-y-3">
-            {insights.growth_tips.map((tip, idx) => (
-              <li key={idx} className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-purple-500/30 flex items-center justify-center text-white font-bold">
-                  {idx + 1}
-                </span>
-                <span className="text-white/90 text-lg pt-1">{tip}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
+        {insights?.growth_tips && insights.growth_tips.length > 0 && (
+          <div className="glass-card mb-8">
+            <h3 className="text-2xl font-bold text-white mb-4">
+              Personal Growth Tips
+            </h3>
+            <ul className="space-y-3">
+              {insights.growth_tips.map((tip, idx) => (
+                <li key={idx} className="flex items-start gap-3">
+                  <span className="flex-shrink-0 w-8 h-8 rounded-full bg-purple-500/30 flex items-center justify-center text-white font-bold">
+                    {idx + 1}
+                  </span>
+                  <span className="text-white/90 text-lg pt-1">{tip}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
 
         {/* Famous People */}
-        <div className="glass-card mb-8">
-          <h3 className="text-2xl font-bold text-white mb-4">Famous {mbti}s</h3>
-          <div className="flex flex-wrap gap-3">
-            {insights.famous_people.map((person, idx) => (
-              <div
-                key={idx}
-                className="px-4 py-2 rounded-full bg-purple-500/20 border border-purple-500/30 text-white"
-              >
-                {person}
-              </div>
-            ))}
+        {insights?.famous_people && insights.famous_people.length > 0 && (
+          <div className="glass-card mb-8">
+            <h3 className="text-2xl font-bold text-white mb-4">Famous {mbti}s</h3>
+            <div className="flex flex-wrap gap-3">
+              {insights.famous_people.map((person, idx) => (
+                <div
+                  key={idx}
+                  className="px-4 py-2 rounded-full bg-purple-500/20 border border-purple-500/30 text-white"
+                >
+                  {person}
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Actions */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

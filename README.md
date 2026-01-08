@@ -44,32 +44,11 @@ A comprehensive web application that predicts MBTI personality types using advan
 
 ---
 
-<!-- ## 🧠 Machine Learning Architecture
+## 🧠 Machine Learning Architecture
 
 ### Model Overview
 
 Our system uses **4 binary ensemble classifiers** instead of a single 16-class classifier, significantly improving accuracy.
-
-#### Architecture Diagram
-Input Text
-↓
-Feature Extraction (5,788 total features)
-├─→ BERT Embeddings (768 features)
-├─→ CountVectorizer (5,000 features)
-└─→ Linguistic Patterns (20 features)
-↓
-4 Binary Classifiers
-├─→ Introversion/Extraversion (I/E)
-├─→ Intuition/Sensing (N/S)
-├─→ Thinking/Feeling (T/F)
-└─→ Judging/Perceiving (J/P)
-↓
-Ensemble Voting (per dimension)
-├─→ Logistic Regression
-├─→ XGBoost
-└─→ Random Forest
-↓
-Final MBTI Type (e.g., INTJ)
 
 ### Technical Details
 
@@ -166,234 +145,168 @@ Final MBTI Type (e.g., INTJ)
 - Collections: users, questionnaire_predictions, text_predictions, twitter_predictions
 
 ### APIs
-- **Twitter API v2** (Optional) - Real tweet fetching
+- **Twitter API v2** - Real tweet fetching
 - **Mock API** (Built-in) - Demo profiles
 
 ---
 
 ## 📦 Installation & Setup
 
-#### Prerequisites
-```bash
-# Required Software
-- Python 3.10 or higher
-- Node.js 16 or higher
-- MongoDB 6.0 or higher
-- Git
+### 🔧 Prerequisites
 
-# Check versions
+Ensure the following software is installed on your system:
+
+* Python 3.10 or higher
+* Node.js 16 or higher
+* Git
+
+Verify installations:
+```bash
 python --version
 node --version
-mongod --version
+git --version
 ```
 
-#### Step 1: Clone Repository
+---
+
+## 📂 Step 1: Clone the Repository
 ```bash
 git clone https://github.com/yourusername/mindmorph.git
 cd mindmorph
 ```
 
-#### Step 2: Backend Setup
+---
+
+## ☁️ Step 2: MongoDB Atlas Setup
+
+### 2.1 Create MongoDB Atlas Account
+
+1. Visit: https://www.mongodb.com/cloud/atlas/register
+2. Sign up for a free account
+3. Choose **Shared (Free Tier)**
+4. Select **AWS** as the cloud provider
+5. Choose the nearest region
+6. Create the cluster (takes 3–5 minutes)
+
+### 2.2 Create Database User
+
+1. Open **MongoDB Atlas Dashboard**
+2. Navigate to **Database Access**
+3. Click **Add New Database User**
+4. Choose **Password authentication**
+5. Set the following:
+   * Username: `mindmorph_user`
+   * Password: Auto-generate and save securely
+6. Database privileges: **Read and write to any database**
+7. Click **Add User**
+
+### 2.3 Configure Network Access
+
+1. Go to **Network Access**
+2. Click **Add IP Address**
+3. Select **Allow access from anywhere (0.0.0.0/0)**
+4. Confirm
+
+### 2.4 Get MongoDB Connection String
+
+1. Go to **Database**
+2. Click **Connect** on your cluster
+3. Choose **Connect your application**
+4. Copy the connection string:
+```text
+mongodb+srv://mindmorph_user:<password>@cluster0.xxxxx.mongodb.net/
+```
+
+Replace `<password>` with your database user password.
+
+---
+
+## 🧠 Step 3: Backend Setup (Flask)
 ```bash
-# Navigate to backend
 cd backend
+```
 
-# Create virtual environment
+### Create Virtual Environment
+```bash
 python -m venv venv
+```
 
-# Activate virtual environment
-# Windows:
+**Activate it:**
+
+**Windows:**
+```bash
 venv\Scripts\activate
-# Mac/Linux:
+```
+
+**Mac/Linux:**
+```bash
 source venv/bin/activate
+```
 
-# Install dependencies
+### Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-# Create .env file
-Create: backend/.env
-env
-# MongoDB Configuration
-MONGODB_URI=mongodb://localhost:27017/mindmorph
+### Create Environment Variables
 
-# JWT Secret (Generate a secure random string)
-JWT_SECRET_KEY=your_super_secret_jwt_key_change_this
+Create a file named `.env` inside the `backend` folder:
+```env
+SECRET_KEY=dev-secret-key-change-in-production
+JWT_SECRET_KEY=jwt-secret-key-change-in-production
 
-# Twitter API (Optional)
-TWITTER_BEARER_TOKEN=your_twitter_bearer_token_here
-USE_REAL_TWITTER_API=false
+MONGO_URI=mongodb+srv://mindmorph_user:<password>@cluster0.xxxxx.mongodb.net/mindmorph?retryWrites=true&w=majority
 
-Start MongoDB (if not running)
+# Twitter API 
+TWITTER_API_KEY=your_api_key
+TWITTER_API_SECRET=your_api_secret
+TWITTER_BEARER_TOKEN=your_bearer_token
 
-# Windows:
-mongod --dbpath C:\data\db
-# Mac/Linux:
-sudo systemctl start mongodb
+# Toggle Twitter API
+USE_REAL_TWITTER_API=true
+```
 
-# Run backend server
+⚠️ **Do not commit the `.env` file to GitHub.**
+
+### Run Backend Server
+```bash
 python run.py
-
-Backend should start on http://localhost:5000
 ```
 
-#### Step 3: Frontend Setup
+Backend runs at:
+```
+http://localhost:5000
+```
+
+---
+
+## 🎨 Step 4: Frontend Setup (React)
+
+Open a new terminal window:
 ```bash
-# Open new terminal
 cd frontend
-
-# Install dependencies
 npm install
-
-# Start development server
 npm start
-
-Frontend opens at http://localhost:3000
-```
-#### Step 4: Verify Installation
-```bash
-Open browser: http://localhost:3000
-Create an account (Sign Up)
-Login with credentials
-You should see the home page with 3 modules
 ```
 
-<!-- 🚀 Usage Guide
-1. Authentication
-Sign Up:
+Frontend runs at:
+```
+http://localhost:3000
+```
 
-Click "Sign Up" on login page
-Enter name, email, password
-Click "Create Account"
+---
 
-Login:
+## ✅ Step 5: Verify Installation
 
-Enter email and password
-Click "Login"
-Redirects to home page
+1. Open `http://localhost:3000` in your browser
+2. Create a new account (Sign Up)
+3. Log in with your credentials
+4. Confirm that all application modules are accessible
 
-2. Questionnaire Module
-Steps:
-
-Click "Scenario Questionnaire" on home
-Read each scenario carefully
-Choose A or B for each question
-Use "Next" and "Back" to navigate
-Click "Get Results" after answering all 20
-View detailed results with insights
-Download PDF report (optional)
-
-3. Text Analysis Module
-Steps:
-
-Click "Text Analysis" on home
-Paste your text (minimum 100 characters)
-Character counter shows progress
-Click "Analyze Text"
-View results with confidence scores
-See keywords that influenced prediction
-Download PDF report
-
-Tips:
-
-More text = better accuracy
-Use authentic, personal writing
-Recommended: 500+ characters
-
-4. Twitter Analysis Module
-Steps:
-
-Click "Twitter Analysis" on home
-Enter Twitter username (without @)
-
-Available: elonmusk, billgates, naval, sundarpichai, barackobama
-
-
-Click "Analyze"
-View results with profile information
-See analyzed tweets stored in database
-Download PDF report
-
-5. View History
-Steps:
-
-From home page, click any history card
-See all past analyses for that module
-Click any result to view full details
-
-
-📊 API Documentation
-Authentication Endpoints
-POST /api/auth/signup
-Register new user.
-Request:
-json{
-  "name": "John Doe",
-  "email": "john@example.com",
-  "password": "securepassword123"
-}
-Response:
-json{
-  "message": "User created successfully",
-  "userId": "507f1f77bcf86cd799439011"
-}
-POST /api/auth/login
-Login user and get JWT token.
-Request:
-json{
-  "email": "john@example.com",
-  "password": "securepassword123"
-}
-Response:
-json{
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
-  "user": {
-    "id": "507f1f77bcf86cd799439011",
-    "name": "John Doe",
-    "email": "john@example.com"
-  }
-}
-Text Analysis Endpoints
-POST /api/text/predict
-Analyze text and predict MBTI.
-Headers: Authorization: Bearer <token>
-Request:
-json{
-  "text": "Your text here (minimum 100 characters)..."
-}
-Response:
-json{
-  "predictionId": "507f1f77bcf86cd799439013",
-  "mbtiType": "ENFP",
-  "confidence": {
-    "IE": 0.82,
-    "NS": 0.88,
-    "TF": 0.75,
-    "JP": 0.79
-  },
-  "keywords": ["creative", "people", "ideas"],
-  "textLength": 1523,
-  "insights": {...}
-}
-Twitter Analysis Endpoints
-POST /api/twitter/analyze
-Analyze Twitter profile.
-Headers: Authorization: Bearer <token>
-Request:
-json{
-  "username": "elonmusk"
-}
-Response:
-json{
-  "predictionId": "507f1f77bcf86cd799439014",
-  "username": "elonmusk",
-  "mbtiType": "ENTJ",
-  "confidence": {...},
-  "tweetCount": 20,
-  "source": "mock_api",
-  "insights": {...}
-}
+---
 
 📁 Project Structure
+```
 MindMorph/
 ├── backend/
 │   ├── app/
@@ -467,102 +380,8 @@ MindMorph/
 │   └── package.json
 │
 └── README.md
-
-🔒 Security Features
-Authentication
-
-JWT Tokens: Secure, stateless authentication
-Password Hashing: Werkzeug security with salt
-Protected Routes: All analysis endpoints require authentication
-CORS Protection: Configured for specific origins
-
-Data Privacy
-
-User passwords never stored in plain text
-JWT tokens stored in localStorage (client-side)
-MongoDB queries use user-specific filters
-No data sharing with third parties
-
-
-🐛 Troubleshooting
-Common Issues
-1. Backend won't start
-bash# Activate virtual environment
-venv\Scripts\activate  # Windows
-source venv/bin/activate  # Mac/Linux
-
-# Check MongoDB is running
-mongod --dbpath C:\data\db
-2. Frontend won't start
-bash# Reinstall dependencies
-rm -rf node_modules package-lock.json
-npm install
-3. ML Models not loading
-bash# Check models exist
-ls backend/app/ml_models/text/
-# Should see 8 .pkl files
-4. Authentication errors
-bash# Check JWT_SECRET_KEY in .env
-# Login again to get fresh token
-
-🎮 Demo Data
-Mock Twitter Profiles
-
-elonmusk - Tech entrepreneur
-
-Expected: ENTJ/INTJ
-Tweets: Innovation, Mars, AI
-
-
-billgates - Philanthropist
-
-Expected: INTJ
-Tweets: Health, Climate, Education
-
-
-naval - Philosopher
-
-Expected: INTP
-Tweets: Wealth, Philosophy, Startups
-
-
-sundarpichai - Google CEO
-
-Expected: ISTJ/INTJ
-Tweets: Technology, Collaboration
-
-
-barackobama - Former President
-
-Expected: ENFJ
-Tweets: Leadership, Hope, Service
-
-
-
-
-🚀 Deployment
-Production Setup
-Backend (Flask):
-bash# Use Gunicorn
-pip install gunicorn
-gunicorn -w 4 -b 0.0.0.0:5000 run:app
-Frontend (React):
-bash# Build for production
-npm run build
-# Deploy to Vercel/Netlify/AWS
-Database:
-
-Use MongoDB Atlas (cloud)
-Or self-host on VPS
-
-
-🎓 Academic Context
-Project Information:
-
-Type: Final Year Bachelor's Project
-Domain: Machine Learning, Web Development
-Duration: 6 months
-Team Size: 3 members -->
+```
+---
 
 ## Learning Outcomes:
 
